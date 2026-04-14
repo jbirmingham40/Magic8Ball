@@ -1,1 +1,3 @@
 This is code to build a Magic 8 ball.  It runs on an Waveshare ESP32-S3 1.46b LCD.
+
+STL files coming soon.
