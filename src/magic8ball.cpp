@@ -185,9 +185,9 @@ static void draw_triangle_cb(lv_event_t *e) {
     // Equilateral triangle, pointing upward, centered on the 412×412 display.
     // Side ≈ 300 px, height ≈ 260 px.
     lv_point_t pts[3] = {
-        {206,  33},   // top
-        { 56, 293},   // bottom-left
-        {356, 293},   // bottom-right
+        {206,  53},   // top
+        { 56, 313},   // bottom-left
+        {356, 313},   // bottom-right
     };
 
     lv_draw_rect_dsc_t dsc;

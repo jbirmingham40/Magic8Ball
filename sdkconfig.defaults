@@ -2336,8 +2336,8 @@ CONFIG_ESP32S3_TRACEMEM_RESERVE_DRAM=0x0
 # end of Trace memory
 
 CONFIG_ESP_SYSTEM_IN_IRAM=y
-# CONFIG_ESP_SYSTEM_PANIC_PRINT_REBOOT is not set
 CONFIG_ESP_SYSTEM_PANIC_PRINT_HALT=y
+# CONFIG_ESP_SYSTEM_PANIC_PRINT_REBOOT is not set
 # CONFIG_ESP_SYSTEM_PANIC_SILENT_REBOOT is not set
 # CONFIG_ESP_SYSTEM_PANIC_GDBSTUB is not set
 CONFIG_ESP_SYSTEM_PANIC_REBOOT_DELAY_SECONDS=0
@@ -12112,6 +12112,6600 @@ CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240=y
 # CONFIG_ESPTOOLPY_FLASHFREQ_26M is not set
 # CONFIG_SPIRAM_SPEED_20M is not set
 # CONFIG_SPIRAM_SPEED_200M is not set
+# TASMOTA__f84e19c11f381208
+#
+# Automatically generated file. DO NOT EDIT.
+# Espressif IoT Development Framework (ESP-IDF) 5.5.2 Project Configuration
+#
+#
+# Build type
+#
+# end of Build type
+#
+# Bootloader config
+#
+#
+# Bootloader manager
+#
+# end of Bootloader manager
+#
+# Application Rollback
+#
+# end of Application Rollback
+#
+# Recovery Bootloader and Rollback
+#
+# end of Recovery Bootloader and Rollback
+#
+# Log
+#
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# Serial Flash Configurations
+#
+# end of Serial Flash Configurations
+# end of Bootloader config
+#
+# Security features
+#
+# end of Security features
+#
+# Application manager
+#
+# end of Application manager
+#
+# Boot ROM Behavior
+#
+# end of Boot ROM Behavior
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+# CONFIG_ESPTOOLPY_FLASHMODE_QOUT is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DIO is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DOUT is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_120M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+# CONFIG_ESPTOOLPY_FLASHFREQ_40M is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_20M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ="80m"
+# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE="16MB"
+# end of Serial flasher config
+#
+# Partition Table
+#
+# end of Partition Table
+#
+# Arduino Configuration
+#
+#
+# Debug Log Configuration
+#
+# end of Debug Log Configuration
+# end of Arduino Configuration
+#
+# Arduino TinyUSB
+#
+#
+# Serial (CDC) driver
+#
+# end of Serial (CDC) driver
+#
+# Mass Storage (MSC) driver
+#
+# end of Mass Storage (MSC) driver
+#
+# Human Interface (HID) driver
+#
+# end of Human Interface (HID) driver
+#
+# MIDI driver
+#
+# end of MIDI driver
+#
+# VIDEO driver
+#
+# end of VIDEO driver
+#
+# DFU Runtime driver
+#
+# end of DFU Runtime driver
+#
+# DFU driver
+#
+# end of DFU driver
+#
+# VENDOR driver
+#
+# end of VENDOR driver
+#
+# NCM driver
+#
+# end of NCM driver
+# end of Arduino TinyUSB
+#
+# ESP-NN
+#
+# end of ESP-NN
+#
+# ESP Speech Recognition
+#
+#
+# Load Multiple Wake Words (WakeNet9s)
+#
+# end of Load Multiple Wake Words (WakeNet9s)
+#
+# Load Multiple Wake Words (WakeNet9)
+#
+# end of Load Multiple Wake Words (WakeNet9)
+#
+# Add English speech commands
+#
+# end of Add English speech commands
+# end of ESP Speech Recognition
+#
+# ESP RainMaker Config
+#
+#
+# ESP RainMaker OTA Config
+#
+# end of ESP RainMaker OTA Config
+#
+# ESP RainMaker Scheduling
+#
+# end of ESP RainMaker Scheduling
+#
+# ESP RainMaker Scenes
+#
+# end of ESP RainMaker Scenes
+#
+# ESP RainMaker Command-Response
+#
+# end of ESP RainMaker Command-Response
+# end of ESP RainMaker Config
+#
+# Compiler options
+#
+# end of Compiler options
+#
+# Component config
+#
+#
+# Application Level Tracing
+#
+# end of Application Level Tracing
+#
+# Bluetooth
+#
+#
+# NimBLE Options
+#
+#
+# General
+#
+# end of General
+#
+# Roles and Profiles
+#
+# end of Roles and Profiles
+#
+# Security (SMP)
+#
+# end of Security (SMP)
+#
+# GAP
+#
+# end of GAP
+#
+# GATT / ATT
+#
+# end of GATT / ATT
+#
+# L2CAP
+#
+# end of L2CAP
+#
+# Memory Settings
+#
+# end of Memory Settings
+#
+# BLE 5.x Features
+#
+# end of BLE 5.x Features
+#
+# Services
+#
+#
+# GAP Appearance write permissions
+#
+# end of GAP Appearance write permissions
+#
+# GAP device name write permissions
+#
+# end of GAP device name write permissions
+#
+# Peripheral Preferred Connection Parameters (PPCP) settings
+#
+# end of Peripheral Preferred Connection Parameters (PPCP) settings
+# end of Services
+#
+# Extra Features
+#
+# end of Extra Features
+#
+# NimBLE Mesh
+#
+# end of NimBLE Mesh
+#
+# Host-controller Transport
+#
+# end of Host-controller Transport
+#
+# Debugging/Testing
+#
+# end of Debugging/Testing
+#
+# Vendor / Optimization
+#
+# end of Vendor / Optimization
+#
+# Helper Utils
+#
+# end of Helper Utils
+# end of NimBLE Options
+#
+# Controller Options
+#
+#
+# MODEM SLEEP Options
+#
+# end of MODEM SLEEP Options
+#
+# BLE disconnects when Instant Passed (0x28) occurs
+#
+# end of BLE disconnects when Instant Passed (0x28) occurs
+#
+# Controller debug log Options (Experimental)
+#
+# end of Controller debug log Options (Experimental)
+# end of Controller Options
+#
+# Common Options
+#
+#
+# BLE Log
+#
+# end of BLE Log
+# end of Common Options
+# end of Bluetooth
+#
+# BLE Mesh and BLE coexistence support
+#
+# end of BLE Mesh and BLE coexistence support
+#
+# BLE Mesh STACK DEBUG LOG LEVEL
+#
+# end of BLE Mesh STACK DEBUG LOG LEVEL
+#
+# BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# end of BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# Support for BLE Mesh Foundation models
+#
+# end of Support for BLE Mesh Foundation models
+#
+# Support for BLE Mesh Client/Server models
+#
+#
+# Binary Larger Object Transfer model
+#
+# end of Binary Larger Object Transfer model
+#
+# Device Firmware Update model
+#
+# end of Device Firmware Update model
+# end of Support for BLE Mesh Client/Server models
+#
+# BLE Mesh specific test option
+#
+# end of BLE Mesh specific test option
+#
+# Console Library
+#
+# end of Console Library
+#
+# Driver Configurations
+#
+#
+# Legacy TWAI Driver Configurations
+#
+# end of Legacy TWAI Driver Configurations
+#
+# Legacy ADC Driver Configuration
+#
+#
+# Legacy ADC Calibration Configuration
+#
+# end of Legacy ADC Calibration Configuration
+# end of Legacy ADC Driver Configuration
+#
+# Legacy MCPWM Driver Configurations
+#
+# end of Legacy MCPWM Driver Configurations
+#
+# Legacy Timer Group Driver Configurations
+#
+# end of Legacy Timer Group Driver Configurations
+#
+# Legacy RMT Driver Configurations
+#
+# end of Legacy RMT Driver Configurations
+#
+# Legacy I2S Driver Configurations
+#
+# end of Legacy I2S Driver Configurations
+#
+# Legacy I2C Driver Configurations
+#
+# end of Legacy I2C Driver Configurations
+#
+# Legacy PCNT Driver Configurations
+#
+# end of Legacy PCNT Driver Configurations
+#
+# Legacy SDM Driver Configurations
+#
+# end of Legacy SDM Driver Configurations
+#
+# Legacy Temperature Sensor Driver Configurations
+#
+# end of Legacy Temperature Sensor Driver Configurations
+#
+# Legacy Touch Sensor Driver Configurations
+#
+# end of Legacy Touch Sensor Driver Configurations
+# end of Driver Configurations
+#
+# eFuse Bit Manager
+#
+# end of eFuse Bit Manager
+#
+# ESP-TLS
+#
+# end of ESP-TLS
+#
+# ADC and ADC Calibration
+#
+# end of ADC and ADC Calibration
+#
+# Wireless Coexistence
+#
+# end of Wireless Coexistence
+#
+# Common ESP-related
+#
+# end of Common ESP-related
+#
+# ESP-Driver:Camera Controller Configurations
+#
+# end of ESP-Driver:Camera Controller Configurations
+#
+# ESP-Driver:GPIO Configurations
+#
+# end of ESP-Driver:GPIO Configurations
+#
+# ESP-Driver:GPTimer Configurations
+#
+# end of ESP-Driver:GPTimer Configurations
+#
+# ESP-Driver:I2C Configurations
+#
+# end of ESP-Driver:I2C Configurations
+#
+# ESP-Driver:I2S Configurations
+#
+# end of ESP-Driver:I2S Configurations
+#
+# ESP-Driver:LEDC Configurations
+#
+# end of ESP-Driver:LEDC Configurations
+#
+# ESP-Driver:MCPWM Configurations
+#
+# end of ESP-Driver:MCPWM Configurations
+#
+# ESP-Driver:PCNT Configurations
+#
+# end of ESP-Driver:PCNT Configurations
+#
+# ESP-Driver:RMT Configurations
+#
+# end of ESP-Driver:RMT Configurations
+#
+# ESP-Driver:Sigma Delta Modulator Configurations
+#
+# end of ESP-Driver:Sigma Delta Modulator Configurations
+#
+# ESP-Driver:SPI Configurations
+#
+# end of ESP-Driver:SPI Configurations
+#
+# ESP-Driver:Touch Sensor Configurations
+#
+# end of ESP-Driver:Touch Sensor Configurations
+#
+# ESP-Driver:Temperature Sensor Configurations
+#
+# end of ESP-Driver:Temperature Sensor Configurations
+#
+# ESP-Driver:TWAI Configurations
+#
+# end of ESP-Driver:TWAI Configurations
+#
+# ESP-Driver:UART Configurations
+#
+# end of ESP-Driver:UART Configurations
+#
+# ESP-Driver:UHCI Configurations
+#
+# end of ESP-Driver:UHCI Configurations
+#
+# ESP-Driver:USB Serial/JTAG Configuration
+#
+# end of ESP-Driver:USB Serial/JTAG Configuration
+#
+# Ethernet
+#
+# end of Ethernet
+#
+# Event Loop Library
+#
+# end of Event Loop Library
+#
+# GDB Stub
+#
+# end of GDB Stub
+#
+# ESP HID
+#
+# end of ESP HID
+#
+# ESP HTTP client
+#
+# end of ESP HTTP client
+#
+# HTTP Server
+#
+# end of HTTP Server
+#
+# ESP HTTPS OTA
+#
+# end of ESP HTTPS OTA
+#
+# ESP HTTPS server
+#
+# end of ESP HTTPS server
+#
+# Hardware Settings
+#
+#
+# Chip revision
+#
+#
+# Maximum Supported ESP32-S3 Revision (Rev v0.99)
+#
+#
+# Maximum Supported ESP32-S3 eFuse Block Revision (eFuse Block Rev v1.99)
+#
+# end of Chip revision
+#
+# MAC Config
+#
+# end of MAC Config
+#
+# Sleep Config
+#
+# end of Sleep Config
+#
+# RTC Clock Config
+#
+# end of RTC Clock Config
+#
+# Peripheral Control
+#
+# end of Peripheral Control
+#
+# GDMA Configurations
+#
+# end of GDMA Configurations
+#
+# Main XTAL Config
+#
+# end of Main XTAL Config
+#
+# Power Supplier
+#
+#
+# Brownout Detector
+#
+# end of Brownout Detector
+# end of Power Supplier
+# end of Hardware Settings
+#
+# ESP-Driver:LCD Controller Configurations
+#
+# end of ESP-Driver:LCD Controller Configurations
+#
+# ESP-MM: Memory Management Configurations
+#
+# end of ESP-MM: Memory Management Configurations
+#
+# ESP NETIF Adapter
+#
+# end of ESP NETIF Adapter
+#
+# Partition API Configuration
+#
+# end of Partition API Configuration
+#
+# PHY
+#
+# end of PHY
+#
+# Power Management
+#
+# end of Power Management
+#
+# ESP PSRAM
+#
+CONFIG_SPIRAM=y
+#
+# SPI RAM config
+#
+# CONFIG_SPIRAM_MODE_QUAD is not set
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_TYPE_AUTO=y
+# CONFIG_SPIRAM_SPEED_120M is not set
+CONFIG_SPIRAM_SPEED_80M=y
+# CONFIG_SPIRAM_SPEED_40M is not set
+CONFIG_SPIRAM_SPEED=80
+# end of SPI RAM config
+# end of ESP PSRAM
+#
+# ESP Ringbuf
+#
+# end of ESP Ringbuf
+#
+# ESP-ROM
+#
+# end of ESP-ROM
+#
+# ESP Security Specific
+#
+# end of ESP Security Specific
+#
+# ESP System Settings
+#
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80 is not set
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160 is not set
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ=240
+#
+# Cache config
+#
+# end of Cache config
+#
+# Memory
+#
+# end of Memory
+#
+# Trace memory
+#
+# end of Trace memory
+#
+# Memory protection
+#
+# end of Memory protection
+# end of ESP System Settings
+#
+# IPC (Inter-Processor Call)
+#
+# end of IPC (Inter-Processor Call)
+#
+# ESP Timer (High Resolution Timer)
+#
+# end of ESP Timer (High Resolution Timer)
+#
+# Wi-Fi
+#
+#
+# WPS Configuration Options
+#
+# end of WPS Configuration Options
+# end of Wi-Fi
+#
+# Core dump
+#
+# end of Core dump
+#
+# FAT Filesystem support
+#
+#
+# File system free space calculation behavior
+#
+# end of File system free space calculation behavior
+# end of FAT Filesystem support
+#
+# FreeRTOS
+#
+#
+# Kernel
+#
+# end of Kernel
+#
+# Port
+#
+# end of Port
+#
+# Extra
+#
+# end of Extra
+# end of FreeRTOS
+#
+# Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# end of Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# Heap memory debugging
+#
+# end of Heap memory debugging
+#
+# Log
+#
+#
+# Log Level
+#
+#
+# Level Settings
+#
+# end of Level Settings
+# end of Log Level
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# LWIP
+#
+#
+# DHCP server
+#
+# end of DHCP server
+#
+# TCP
+#
+# end of TCP
+#
+# UDP
+#
+# end of UDP
+#
+# Checksums
+#
+# end of Checksums
+#
+# ICMP
+#
+# end of ICMP
+#
+# LWIP RAW API
+#
+# end of LWIP RAW API
+#
+# SNTP
+#
+# end of SNTP
+#
+# DNS
+#
+# end of DNS
+#
+# Hooks
+#
+# end of Hooks
+# end of LWIP
+#
+# mbedTLS
+#
+#
+# mbedTLS v3.x related
+#
+#
+# DTLS-based configurations
+#
+# end of DTLS-based configurations
+# end of mbedTLS v3.x related
+#
+# Certificate Bundle
+#
+# end of Certificate Bundle
+#
+# TLS Key Exchange Methods
+#
+# end of TLS Key Exchange Methods
+#
+# Symmetric Ciphers
+#
+# end of Symmetric Ciphers
+#
+# Certificates
+#
+# end of Certificates
+# end of mbedTLS
+#
+# ESP-MQTT Configurations
+#
+# end of ESP-MQTT Configurations
+#
+# LibC
+#
+# end of LibC
+#
+# NVS
+#
+# end of NVS
+#
+# OpenThread
+#
+#
+# OpenThread Spinel
+#
+# end of OpenThread Spinel
+# end of OpenThread
+#
+# Protocomm
+#
+# end of Protocomm
+#
+# PThreads
+#
+# end of PThreads
+#
+# MMU Config
+#
+# end of MMU Config
+#
+# Main Flash configuration
+#
+#
+# SPI Flash behavior when brownout
+#
+# end of SPI Flash behavior when brownout
+#
+# Optional and Experimental Features (READ DOCS FIRST)
+#
+#
+# Features here require specific hardware (READ DOCS FIRST!)
+#
+# end of Optional and Experimental Features (READ DOCS FIRST)
+# end of Main Flash configuration
+#
+# SPI Flash driver
+#
+#
+# Auto-detect flash chips
+#
+# end of Auto-detect flash chips
+# end of SPI Flash driver
+#
+# SPIFFS Configuration
+#
+#
+# SPIFFS Cache Configuration
+#
+# end of SPIFFS Cache Configuration
+#
+# Debug Configuration
+#
+# end of Debug Configuration
+# end of SPIFFS Configuration
+#
+# TCP Transport
+#
+#
+# Websocket
+#
+# end of Websocket
+# end of TCP Transport
+#
+# Ultra Low Power (ULP) Co-processor
+#
+#
+# ULP Debugging Options
+#
+# end of ULP Debugging Options
+# end of Ultra Low Power (ULP) Co-processor
+#
+# Unity unit testing library
+#
+# end of Unity unit testing library
+#
+# USB-OTG
+#
+#
+# Hub Driver Configuration
+#
+#
+# Root Port configuration
+#
+# end of Root Port configuration
+#
+# Downstream Port configuration
+#
+# end of Downstream Port configuration
+# end of Hub Driver Configuration
+# end of USB-OTG
+#
+# Virtual file system
+#
+#
+# Host File System I/O (Semihosting)
+#
+# end of Host File System I/O (Semihosting)
+# end of Virtual file system
+#
+# Wear Levelling
+#
+# end of Wear Levelling
+#
+# Wi-Fi Provisioning Manager
+#
+# end of Wi-Fi Provisioning Manager
+#
+# DSP Library
+#
+# end of DSP Library
+#
+# Modbus configuration
+#
+# end of Modbus configuration
+#
+# ESP serial flasher
+#
+# end of ESP serial flasher
+#
+# Zigbee
+#
+#
+# Zigbee Example
+#
+# end of Zigbee Example
+# end of Zigbee
+#
+# Camera configuration
+#
+# end of Camera configuration
+#
+# Diagnostics data store
+#
+#
+# RTC Store
+#
+# end of RTC Store
+# end of Diagnostics data store
+#
+# Diagnostics
+#
+# end of Diagnostics
+#
+# ESP Insights
+#
+# end of ESP Insights
+#
+# JPEG Decoder
+#
+# end of JPEG Decoder
+#
+# CHIP Core
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Networking Options
+#
+# end of Networking Options
+#
+# System Options
+#
+# end of System Options
+#
+# Security Options
+#
+#
+# Debugging
+#
+# end of Debugging
+# end of Security Options
+# end of CHIP Core
+#
+# CHIP Device Layer
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Device Identification Options
+#
+# end of Device Identification Options
+#
+# WiFi Station Options
+#
+# end of WiFi Station Options
+#
+# WiFi AP Options
+#
+# end of WiFi AP Options
+#
+# BLE Options
+#
+# end of BLE Options
+#
+# Time Sync Options
+#
+# end of Time Sync Options
+#
+# Service Provisioning Options
+#
+# end of Service Provisioning Options
+#
+# Commissioning options
+#
+# end of Commissioning options
+#
+# Testing Options
+#
+# end of Testing Options
+#
+# Network Telemetry Options
+#
+# end of Network Telemetry Options
+#
+# Event Logging Options
+#
+# end of Event Logging Options
+#
+# Matter OTA Image
+#
+# end of Matter OTA Image
+#
+# External Platform
+#
+# end of External Platform
+#
+# Matter Manufacturing Options
+#
+# end of Matter Manufacturing Options
+#
+# Commissioning Window Options
+#
+# end of Commissioning Window Options
+#
+# Enable ESP32 as a BLE Commissioner
+#
+# end of Enable ESP32 as a BLE Commissioner
+#
+# Enable BLE Extended Announcement
+#
+# end of Enable BLE Extended Announcement
+#
+# Message Reliable Protocol Options
+#
+# end of Message Reliable Protocol Options
+#
+# Network Commissioning Driver Endpoint Id
+#
+# end of Network Commissioning Driver Endpoint Id
+#
+# Cluster Configuration Options
+#
+# end of Cluster Configuration Options
+# end of CHIP Device Layer
+#
+# ESP Matter
+#
+#
+# Select Supported Matter Clusters
+#
+# end of Select Supported Matter Clusters
+# end of ESP Matter
+#
+# ESP Matter Bridge
+#
+# end of ESP Matter Bridge
+#
+# ESP Matter Console
+#
+# end of ESP Matter Console
+#
+# ESP Matter Controller
+#
+# end of ESP Matter Controller
+#
+# ESP Matter OTA Provider
+#
+# end of ESP Matter OTA Provider
+#
+# esp-modem
+#
+# end of esp-modem
+#
+# OpenThread RCP Update
+#
+# end of OpenThread RCP Update
+#
+# ESP Secure Cert Manager
+#
+# end of ESP Secure Cert Manager
+#
+# jsmn
+#
+# end of jsmn
+#
+# libsodium
+#
+# end of libsodium
+#
+# mDNS
+#
+#
+# MDNS Memory Configuration
+#
+# end of MDNS Memory Configuration
+#
+# MDNS Predefined interfaces
+#
+# end of MDNS Predefined interfaces
+# end of mDNS
+#
+# Network Provisioning Manager
+#
+# end of Network Provisioning Manager
+#
+# ESP RainMaker Common
+#
+# end of ESP RainMaker Common
+#
+# LittleFS
+#
+# end of LittleFS
+# end of Component config
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+# Deprecated options for backward compatibility
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_80 is not set
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_160 is not set
+CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240=y
+# End of deprecated options
+# CONFIG_ESPTOOLPY_FLASHFREQ_26M is not set
+# CONFIG_SPIRAM_SPEED_20M is not set
+# CONFIG_SPIRAM_SPEED_200M is not set
+# TASMOTA__f84e19c11f381208
+#
+# Automatically generated file. DO NOT EDIT.
+# Espressif IoT Development Framework (ESP-IDF) 5.5.2 Project Configuration
+#
+#
+# Build type
+#
+# end of Build type
+#
+# Bootloader config
+#
+#
+# Bootloader manager
+#
+# end of Bootloader manager
+#
+# Application Rollback
+#
+# end of Application Rollback
+#
+# Recovery Bootloader and Rollback
+#
+# end of Recovery Bootloader and Rollback
+#
+# Log
+#
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# Serial Flash Configurations
+#
+# end of Serial Flash Configurations
+# end of Bootloader config
+#
+# Security features
+#
+# end of Security features
+#
+# Application manager
+#
+# end of Application manager
+#
+# Boot ROM Behavior
+#
+# end of Boot ROM Behavior
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+# CONFIG_ESPTOOLPY_FLASHMODE_QOUT is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DIO is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DOUT is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_120M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+# CONFIG_ESPTOOLPY_FLASHFREQ_40M is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_20M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ="80m"
+# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE="16MB"
+# end of Serial flasher config
+#
+# Partition Table
+#
+# end of Partition Table
+#
+# Arduino Configuration
+#
+#
+# Debug Log Configuration
+#
+# end of Debug Log Configuration
+# end of Arduino Configuration
+#
+# Arduino TinyUSB
+#
+#
+# Serial (CDC) driver
+#
+# end of Serial (CDC) driver
+#
+# Mass Storage (MSC) driver
+#
+# end of Mass Storage (MSC) driver
+#
+# Human Interface (HID) driver
+#
+# end of Human Interface (HID) driver
+#
+# MIDI driver
+#
+# end of MIDI driver
+#
+# VIDEO driver
+#
+# end of VIDEO driver
+#
+# DFU Runtime driver
+#
+# end of DFU Runtime driver
+#
+# DFU driver
+#
+# end of DFU driver
+#
+# VENDOR driver
+#
+# end of VENDOR driver
+#
+# NCM driver
+#
+# end of NCM driver
+# end of Arduino TinyUSB
+#
+# ESP-NN
+#
+# end of ESP-NN
+#
+# ESP Speech Recognition
+#
+#
+# Load Multiple Wake Words (WakeNet9s)
+#
+# end of Load Multiple Wake Words (WakeNet9s)
+#
+# Load Multiple Wake Words (WakeNet9)
+#
+# end of Load Multiple Wake Words (WakeNet9)
+#
+# Add English speech commands
+#
+# end of Add English speech commands
+# end of ESP Speech Recognition
+#
+# ESP RainMaker Config
+#
+#
+# ESP RainMaker OTA Config
+#
+# end of ESP RainMaker OTA Config
+#
+# ESP RainMaker Scheduling
+#
+# end of ESP RainMaker Scheduling
+#
+# ESP RainMaker Scenes
+#
+# end of ESP RainMaker Scenes
+#
+# ESP RainMaker Command-Response
+#
+# end of ESP RainMaker Command-Response
+# end of ESP RainMaker Config
+#
+# Compiler options
+#
+# end of Compiler options
+#
+# Component config
+#
+#
+# Application Level Tracing
+#
+# end of Application Level Tracing
+#
+# Bluetooth
+#
+#
+# NimBLE Options
+#
+#
+# General
+#
+# end of General
+#
+# Roles and Profiles
+#
+# end of Roles and Profiles
+#
+# Security (SMP)
+#
+# end of Security (SMP)
+#
+# GAP
+#
+# end of GAP
+#
+# GATT / ATT
+#
+# end of GATT / ATT
+#
+# L2CAP
+#
+# end of L2CAP
+#
+# Memory Settings
+#
+# end of Memory Settings
+#
+# BLE 5.x Features
+#
+# end of BLE 5.x Features
+#
+# Services
+#
+#
+# GAP Appearance write permissions
+#
+# end of GAP Appearance write permissions
+#
+# GAP device name write permissions
+#
+# end of GAP device name write permissions
+#
+# Peripheral Preferred Connection Parameters (PPCP) settings
+#
+# end of Peripheral Preferred Connection Parameters (PPCP) settings
+# end of Services
+#
+# Extra Features
+#
+# end of Extra Features
+#
+# NimBLE Mesh
+#
+# end of NimBLE Mesh
+#
+# Host-controller Transport
+#
+# end of Host-controller Transport
+#
+# Debugging/Testing
+#
+# end of Debugging/Testing
+#
+# Vendor / Optimization
+#
+# end of Vendor / Optimization
+#
+# Helper Utils
+#
+# end of Helper Utils
+# end of NimBLE Options
+#
+# Controller Options
+#
+#
+# MODEM SLEEP Options
+#
+# end of MODEM SLEEP Options
+#
+# BLE disconnects when Instant Passed (0x28) occurs
+#
+# end of BLE disconnects when Instant Passed (0x28) occurs
+#
+# Controller debug log Options (Experimental)
+#
+# end of Controller debug log Options (Experimental)
+# end of Controller Options
+#
+# Common Options
+#
+#
+# BLE Log
+#
+# end of BLE Log
+# end of Common Options
+# end of Bluetooth
+#
+# BLE Mesh and BLE coexistence support
+#
+# end of BLE Mesh and BLE coexistence support
+#
+# BLE Mesh STACK DEBUG LOG LEVEL
+#
+# end of BLE Mesh STACK DEBUG LOG LEVEL
+#
+# BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# end of BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# Support for BLE Mesh Foundation models
+#
+# end of Support for BLE Mesh Foundation models
+#
+# Support for BLE Mesh Client/Server models
+#
+#
+# Binary Larger Object Transfer model
+#
+# end of Binary Larger Object Transfer model
+#
+# Device Firmware Update model
+#
+# end of Device Firmware Update model
+# end of Support for BLE Mesh Client/Server models
+#
+# BLE Mesh specific test option
+#
+# end of BLE Mesh specific test option
+#
+# Console Library
+#
+# end of Console Library
+#
+# Driver Configurations
+#
+#
+# Legacy TWAI Driver Configurations
+#
+# end of Legacy TWAI Driver Configurations
+#
+# Legacy ADC Driver Configuration
+#
+#
+# Legacy ADC Calibration Configuration
+#
+# end of Legacy ADC Calibration Configuration
+# end of Legacy ADC Driver Configuration
+#
+# Legacy MCPWM Driver Configurations
+#
+# end of Legacy MCPWM Driver Configurations
+#
+# Legacy Timer Group Driver Configurations
+#
+# end of Legacy Timer Group Driver Configurations
+#
+# Legacy RMT Driver Configurations
+#
+# end of Legacy RMT Driver Configurations
+#
+# Legacy I2S Driver Configurations
+#
+# end of Legacy I2S Driver Configurations
+#
+# Legacy I2C Driver Configurations
+#
+# end of Legacy I2C Driver Configurations
+#
+# Legacy PCNT Driver Configurations
+#
+# end of Legacy PCNT Driver Configurations
+#
+# Legacy SDM Driver Configurations
+#
+# end of Legacy SDM Driver Configurations
+#
+# Legacy Temperature Sensor Driver Configurations
+#
+# end of Legacy Temperature Sensor Driver Configurations
+#
+# Legacy Touch Sensor Driver Configurations
+#
+# end of Legacy Touch Sensor Driver Configurations
+# end of Driver Configurations
+#
+# eFuse Bit Manager
+#
+# end of eFuse Bit Manager
+#
+# ESP-TLS
+#
+# end of ESP-TLS
+#
+# ADC and ADC Calibration
+#
+# end of ADC and ADC Calibration
+#
+# Wireless Coexistence
+#
+# end of Wireless Coexistence
+#
+# Common ESP-related
+#
+# end of Common ESP-related
+#
+# ESP-Driver:Camera Controller Configurations
+#
+# end of ESP-Driver:Camera Controller Configurations
+#
+# ESP-Driver:GPIO Configurations
+#
+# end of ESP-Driver:GPIO Configurations
+#
+# ESP-Driver:GPTimer Configurations
+#
+# end of ESP-Driver:GPTimer Configurations
+#
+# ESP-Driver:I2C Configurations
+#
+# end of ESP-Driver:I2C Configurations
+#
+# ESP-Driver:I2S Configurations
+#
+# end of ESP-Driver:I2S Configurations
+#
+# ESP-Driver:LEDC Configurations
+#
+# end of ESP-Driver:LEDC Configurations
+#
+# ESP-Driver:MCPWM Configurations
+#
+# end of ESP-Driver:MCPWM Configurations
+#
+# ESP-Driver:PCNT Configurations
+#
+# end of ESP-Driver:PCNT Configurations
+#
+# ESP-Driver:RMT Configurations
+#
+# end of ESP-Driver:RMT Configurations
+#
+# ESP-Driver:Sigma Delta Modulator Configurations
+#
+# end of ESP-Driver:Sigma Delta Modulator Configurations
+#
+# ESP-Driver:SPI Configurations
+#
+# end of ESP-Driver:SPI Configurations
+#
+# ESP-Driver:Touch Sensor Configurations
+#
+# end of ESP-Driver:Touch Sensor Configurations
+#
+# ESP-Driver:Temperature Sensor Configurations
+#
+# end of ESP-Driver:Temperature Sensor Configurations
+#
+# ESP-Driver:TWAI Configurations
+#
+# end of ESP-Driver:TWAI Configurations
+#
+# ESP-Driver:UART Configurations
+#
+# end of ESP-Driver:UART Configurations
+#
+# ESP-Driver:UHCI Configurations
+#
+# end of ESP-Driver:UHCI Configurations
+#
+# ESP-Driver:USB Serial/JTAG Configuration
+#
+# end of ESP-Driver:USB Serial/JTAG Configuration
+#
+# Ethernet
+#
+# end of Ethernet
+#
+# Event Loop Library
+#
+# end of Event Loop Library
+#
+# GDB Stub
+#
+# end of GDB Stub
+#
+# ESP HID
+#
+# end of ESP HID
+#
+# ESP HTTP client
+#
+# end of ESP HTTP client
+#
+# HTTP Server
+#
+# end of HTTP Server
+#
+# ESP HTTPS OTA
+#
+# end of ESP HTTPS OTA
+#
+# ESP HTTPS server
+#
+# end of ESP HTTPS server
+#
+# Hardware Settings
+#
+#
+# Chip revision
+#
+#
+# Maximum Supported ESP32-S3 Revision (Rev v0.99)
+#
+#
+# Maximum Supported ESP32-S3 eFuse Block Revision (eFuse Block Rev v1.99)
+#
+# end of Chip revision
+#
+# MAC Config
+#
+# end of MAC Config
+#
+# Sleep Config
+#
+# end of Sleep Config
+#
+# RTC Clock Config
+#
+# end of RTC Clock Config
+#
+# Peripheral Control
+#
+# end of Peripheral Control
+#
+# GDMA Configurations
+#
+# end of GDMA Configurations
+#
+# Main XTAL Config
+#
+# end of Main XTAL Config
+#
+# Power Supplier
+#
+#
+# Brownout Detector
+#
+# end of Brownout Detector
+# end of Power Supplier
+# end of Hardware Settings
+#
+# ESP-Driver:LCD Controller Configurations
+#
+# end of ESP-Driver:LCD Controller Configurations
+#
+# ESP-MM: Memory Management Configurations
+#
+# end of ESP-MM: Memory Management Configurations
+#
+# ESP NETIF Adapter
+#
+# end of ESP NETIF Adapter
+#
+# Partition API Configuration
+#
+# end of Partition API Configuration
+#
+# PHY
+#
+# end of PHY
+#
+# Power Management
+#
+# end of Power Management
+#
+# ESP PSRAM
+#
+CONFIG_SPIRAM=y
+#
+# SPI RAM config
+#
+# CONFIG_SPIRAM_MODE_QUAD is not set
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_TYPE_AUTO=y
+# CONFIG_SPIRAM_SPEED_120M is not set
+CONFIG_SPIRAM_SPEED_80M=y
+# CONFIG_SPIRAM_SPEED_40M is not set
+CONFIG_SPIRAM_SPEED=80
+# end of SPI RAM config
+# end of ESP PSRAM
+#
+# ESP Ringbuf
+#
+# end of ESP Ringbuf
+#
+# ESP-ROM
+#
+# end of ESP-ROM
+#
+# ESP Security Specific
+#
+# end of ESP Security Specific
+#
+# ESP System Settings
+#
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80 is not set
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160 is not set
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ=240
+#
+# Cache config
+#
+# end of Cache config
+#
+# Memory
+#
+# end of Memory
+#
+# Trace memory
+#
+# end of Trace memory
+#
+# Memory protection
+#
+# end of Memory protection
+# end of ESP System Settings
+#
+# IPC (Inter-Processor Call)
+#
+# end of IPC (Inter-Processor Call)
+#
+# ESP Timer (High Resolution Timer)
+#
+# end of ESP Timer (High Resolution Timer)
+#
+# Wi-Fi
+#
+#
+# WPS Configuration Options
+#
+# end of WPS Configuration Options
+# end of Wi-Fi
+#
+# Core dump
+#
+# end of Core dump
+#
+# FAT Filesystem support
+#
+#
+# File system free space calculation behavior
+#
+# end of File system free space calculation behavior
+# end of FAT Filesystem support
+#
+# FreeRTOS
+#
+#
+# Kernel
+#
+# end of Kernel
+#
+# Port
+#
+# end of Port
+#
+# Extra
+#
+# end of Extra
+# end of FreeRTOS
+#
+# Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# end of Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# Heap memory debugging
+#
+# end of Heap memory debugging
+#
+# Log
+#
+#
+# Log Level
+#
+#
+# Level Settings
+#
+# end of Level Settings
+# end of Log Level
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# LWIP
+#
+#
+# DHCP server
+#
+# end of DHCP server
+#
+# TCP
+#
+# end of TCP
+#
+# UDP
+#
+# end of UDP
+#
+# Checksums
+#
+# end of Checksums
+#
+# ICMP
+#
+# end of ICMP
+#
+# LWIP RAW API
+#
+# end of LWIP RAW API
+#
+# SNTP
+#
+# end of SNTP
+#
+# DNS
+#
+# end of DNS
+#
+# Hooks
+#
+# end of Hooks
+# end of LWIP
+#
+# mbedTLS
+#
+#
+# mbedTLS v3.x related
+#
+#
+# DTLS-based configurations
+#
+# end of DTLS-based configurations
+# end of mbedTLS v3.x related
+#
+# Certificate Bundle
+#
+# end of Certificate Bundle
+#
+# TLS Key Exchange Methods
+#
+# end of TLS Key Exchange Methods
+#
+# Symmetric Ciphers
+#
+# end of Symmetric Ciphers
+#
+# Certificates
+#
+# end of Certificates
+# end of mbedTLS
+#
+# ESP-MQTT Configurations
+#
+# end of ESP-MQTT Configurations
+#
+# LibC
+#
+# end of LibC
+#
+# NVS
+#
+# end of NVS
+#
+# OpenThread
+#
+#
+# OpenThread Spinel
+#
+# end of OpenThread Spinel
+# end of OpenThread
+#
+# Protocomm
+#
+# end of Protocomm
+#
+# PThreads
+#
+# end of PThreads
+#
+# MMU Config
+#
+# end of MMU Config
+#
+# Main Flash configuration
+#
+#
+# SPI Flash behavior when brownout
+#
+# end of SPI Flash behavior when brownout
+#
+# Optional and Experimental Features (READ DOCS FIRST)
+#
+#
+# Features here require specific hardware (READ DOCS FIRST!)
+#
+# end of Optional and Experimental Features (READ DOCS FIRST)
+# end of Main Flash configuration
+#
+# SPI Flash driver
+#
+#
+# Auto-detect flash chips
+#
+# end of Auto-detect flash chips
+# end of SPI Flash driver
+#
+# SPIFFS Configuration
+#
+#
+# SPIFFS Cache Configuration
+#
+# end of SPIFFS Cache Configuration
+#
+# Debug Configuration
+#
+# end of Debug Configuration
+# end of SPIFFS Configuration
+#
+# TCP Transport
+#
+#
+# Websocket
+#
+# end of Websocket
+# end of TCP Transport
+#
+# Ultra Low Power (ULP) Co-processor
+#
+#
+# ULP Debugging Options
+#
+# end of ULP Debugging Options
+# end of Ultra Low Power (ULP) Co-processor
+#
+# Unity unit testing library
+#
+# end of Unity unit testing library
+#
+# USB-OTG
+#
+#
+# Hub Driver Configuration
+#
+#
+# Root Port configuration
+#
+# end of Root Port configuration
+#
+# Downstream Port configuration
+#
+# end of Downstream Port configuration
+# end of Hub Driver Configuration
+# end of USB-OTG
+#
+# Virtual file system
+#
+#
+# Host File System I/O (Semihosting)
+#
+# end of Host File System I/O (Semihosting)
+# end of Virtual file system
+#
+# Wear Levelling
+#
+# end of Wear Levelling
+#
+# Wi-Fi Provisioning Manager
+#
+# end of Wi-Fi Provisioning Manager
+#
+# DSP Library
+#
+# end of DSP Library
+#
+# Modbus configuration
+#
+# end of Modbus configuration
+#
+# ESP serial flasher
+#
+# end of ESP serial flasher
+#
+# Zigbee
+#
+#
+# Zigbee Example
+#
+# end of Zigbee Example
+# end of Zigbee
+#
+# Camera configuration
+#
+# end of Camera configuration
+#
+# Diagnostics data store
+#
+#
+# RTC Store
+#
+# end of RTC Store
+# end of Diagnostics data store
+#
+# Diagnostics
+#
+# end of Diagnostics
+#
+# ESP Insights
+#
+# end of ESP Insights
+#
+# JPEG Decoder
+#
+# end of JPEG Decoder
+#
+# CHIP Core
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Networking Options
+#
+# end of Networking Options
+#
+# System Options
+#
+# end of System Options
+#
+# Security Options
+#
+#
+# Debugging
+#
+# end of Debugging
+# end of Security Options
+# end of CHIP Core
+#
+# CHIP Device Layer
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Device Identification Options
+#
+# end of Device Identification Options
+#
+# WiFi Station Options
+#
+# end of WiFi Station Options
+#
+# WiFi AP Options
+#
+# end of WiFi AP Options
+#
+# BLE Options
+#
+# end of BLE Options
+#
+# Time Sync Options
+#
+# end of Time Sync Options
+#
+# Service Provisioning Options
+#
+# end of Service Provisioning Options
+#
+# Commissioning options
+#
+# end of Commissioning options
+#
+# Testing Options
+#
+# end of Testing Options
+#
+# Network Telemetry Options
+#
+# end of Network Telemetry Options
+#
+# Event Logging Options
+#
+# end of Event Logging Options
+#
+# Matter OTA Image
+#
+# end of Matter OTA Image
+#
+# External Platform
+#
+# end of External Platform
+#
+# Matter Manufacturing Options
+#
+# end of Matter Manufacturing Options
+#
+# Commissioning Window Options
+#
+# end of Commissioning Window Options
+#
+# Enable ESP32 as a BLE Commissioner
+#
+# end of Enable ESP32 as a BLE Commissioner
+#
+# Enable BLE Extended Announcement
+#
+# end of Enable BLE Extended Announcement
+#
+# Message Reliable Protocol Options
+#
+# end of Message Reliable Protocol Options
+#
+# Network Commissioning Driver Endpoint Id
+#
+# end of Network Commissioning Driver Endpoint Id
+#
+# Cluster Configuration Options
+#
+# end of Cluster Configuration Options
+# end of CHIP Device Layer
+#
+# ESP Matter
+#
+#
+# Select Supported Matter Clusters
+#
+# end of Select Supported Matter Clusters
+# end of ESP Matter
+#
+# ESP Matter Bridge
+#
+# end of ESP Matter Bridge
+#
+# ESP Matter Console
+#
+# end of ESP Matter Console
+#
+# ESP Matter Controller
+#
+# end of ESP Matter Controller
+#
+# ESP Matter OTA Provider
+#
+# end of ESP Matter OTA Provider
+#
+# esp-modem
+#
+# end of esp-modem
+#
+# OpenThread RCP Update
+#
+# end of OpenThread RCP Update
+#
+# ESP Secure Cert Manager
+#
+# end of ESP Secure Cert Manager
+#
+# jsmn
+#
+# end of jsmn
+#
+# libsodium
+#
+# end of libsodium
+#
+# mDNS
+#
+#
+# MDNS Memory Configuration
+#
+# end of MDNS Memory Configuration
+#
+# MDNS Predefined interfaces
+#
+# end of MDNS Predefined interfaces
+# end of mDNS
+#
+# Network Provisioning Manager
+#
+# end of Network Provisioning Manager
+#
+# ESP RainMaker Common
+#
+# end of ESP RainMaker Common
+#
+# LittleFS
+#
+# end of LittleFS
+# end of Component config
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+# Deprecated options for backward compatibility
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_80 is not set
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_160 is not set
+CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240=y
+# End of deprecated options
+# CONFIG_ESPTOOLPY_FLASHFREQ_26M is not set
+# CONFIG_SPIRAM_SPEED_20M is not set
+# CONFIG_SPIRAM_SPEED_200M is not set
+# TASMOTA__f84e19c11f381208
+#
+# Automatically generated file. DO NOT EDIT.
+# Espressif IoT Development Framework (ESP-IDF) 5.5.2 Project Configuration
+#
+#
+# Build type
+#
+# end of Build type
+#
+# Bootloader config
+#
+#
+# Bootloader manager
+#
+# end of Bootloader manager
+#
+# Application Rollback
+#
+# end of Application Rollback
+#
+# Recovery Bootloader and Rollback
+#
+# end of Recovery Bootloader and Rollback
+#
+# Log
+#
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# Serial Flash Configurations
+#
+# end of Serial Flash Configurations
+# end of Bootloader config
+#
+# Security features
+#
+# end of Security features
+#
+# Application manager
+#
+# end of Application manager
+#
+# Boot ROM Behavior
+#
+# end of Boot ROM Behavior
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+# CONFIG_ESPTOOLPY_FLASHMODE_QOUT is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DIO is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DOUT is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_120M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+# CONFIG_ESPTOOLPY_FLASHFREQ_40M is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_20M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ="80m"
+# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE="16MB"
+# end of Serial flasher config
+#
+# Partition Table
+#
+# end of Partition Table
+#
+# Arduino Configuration
+#
+#
+# Debug Log Configuration
+#
+# end of Debug Log Configuration
+# end of Arduino Configuration
+#
+# Arduino TinyUSB
+#
+#
+# Serial (CDC) driver
+#
+# end of Serial (CDC) driver
+#
+# Mass Storage (MSC) driver
+#
+# end of Mass Storage (MSC) driver
+#
+# Human Interface (HID) driver
+#
+# end of Human Interface (HID) driver
+#
+# MIDI driver
+#
+# end of MIDI driver
+#
+# VIDEO driver
+#
+# end of VIDEO driver
+#
+# DFU Runtime driver
+#
+# end of DFU Runtime driver
+#
+# DFU driver
+#
+# end of DFU driver
+#
+# VENDOR driver
+#
+# end of VENDOR driver
+#
+# NCM driver
+#
+# end of NCM driver
+# end of Arduino TinyUSB
+#
+# ESP-NN
+#
+# end of ESP-NN
+#
+# ESP Speech Recognition
+#
+#
+# Load Multiple Wake Words (WakeNet9s)
+#
+# end of Load Multiple Wake Words (WakeNet9s)
+#
+# Load Multiple Wake Words (WakeNet9)
+#
+# end of Load Multiple Wake Words (WakeNet9)
+#
+# Add English speech commands
+#
+# end of Add English speech commands
+# end of ESP Speech Recognition
+#
+# ESP RainMaker Config
+#
+#
+# ESP RainMaker OTA Config
+#
+# end of ESP RainMaker OTA Config
+#
+# ESP RainMaker Scheduling
+#
+# end of ESP RainMaker Scheduling
+#
+# ESP RainMaker Scenes
+#
+# end of ESP RainMaker Scenes
+#
+# ESP RainMaker Command-Response
+#
+# end of ESP RainMaker Command-Response
+# end of ESP RainMaker Config
+#
+# Compiler options
+#
+# end of Compiler options
+#
+# Component config
+#
+#
+# Application Level Tracing
+#
+# end of Application Level Tracing
+#
+# Bluetooth
+#
+#
+# NimBLE Options
+#
+#
+# General
+#
+# end of General
+#
+# Roles and Profiles
+#
+# end of Roles and Profiles
+#
+# Security (SMP)
+#
+# end of Security (SMP)
+#
+# GAP
+#
+# end of GAP
+#
+# GATT / ATT
+#
+# end of GATT / ATT
+#
+# L2CAP
+#
+# end of L2CAP
+#
+# Memory Settings
+#
+# end of Memory Settings
+#
+# BLE 5.x Features
+#
+# end of BLE 5.x Features
+#
+# Services
+#
+#
+# GAP Appearance write permissions
+#
+# end of GAP Appearance write permissions
+#
+# GAP device name write permissions
+#
+# end of GAP device name write permissions
+#
+# Peripheral Preferred Connection Parameters (PPCP) settings
+#
+# end of Peripheral Preferred Connection Parameters (PPCP) settings
+# end of Services
+#
+# Extra Features
+#
+# end of Extra Features
+#
+# NimBLE Mesh
+#
+# end of NimBLE Mesh
+#
+# Host-controller Transport
+#
+# end of Host-controller Transport
+#
+# Debugging/Testing
+#
+# end of Debugging/Testing
+#
+# Vendor / Optimization
+#
+# end of Vendor / Optimization
+#
+# Helper Utils
+#
+# end of Helper Utils
+# end of NimBLE Options
+#
+# Controller Options
+#
+#
+# MODEM SLEEP Options
+#
+# end of MODEM SLEEP Options
+#
+# BLE disconnects when Instant Passed (0x28) occurs
+#
+# end of BLE disconnects when Instant Passed (0x28) occurs
+#
+# Controller debug log Options (Experimental)
+#
+# end of Controller debug log Options (Experimental)
+# end of Controller Options
+#
+# Common Options
+#
+#
+# BLE Log
+#
+# end of BLE Log
+# end of Common Options
+# end of Bluetooth
+#
+# BLE Mesh and BLE coexistence support
+#
+# end of BLE Mesh and BLE coexistence support
+#
+# BLE Mesh STACK DEBUG LOG LEVEL
+#
+# end of BLE Mesh STACK DEBUG LOG LEVEL
+#
+# BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# end of BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# Support for BLE Mesh Foundation models
+#
+# end of Support for BLE Mesh Foundation models
+#
+# Support for BLE Mesh Client/Server models
+#
+#
+# Binary Larger Object Transfer model
+#
+# end of Binary Larger Object Transfer model
+#
+# Device Firmware Update model
+#
+# end of Device Firmware Update model
+# end of Support for BLE Mesh Client/Server models
+#
+# BLE Mesh specific test option
+#
+# end of BLE Mesh specific test option
+#
+# Console Library
+#
+# end of Console Library
+#
+# Driver Configurations
+#
+#
+# Legacy TWAI Driver Configurations
+#
+# end of Legacy TWAI Driver Configurations
+#
+# Legacy ADC Driver Configuration
+#
+#
+# Legacy ADC Calibration Configuration
+#
+# end of Legacy ADC Calibration Configuration
+# end of Legacy ADC Driver Configuration
+#
+# Legacy MCPWM Driver Configurations
+#
+# end of Legacy MCPWM Driver Configurations
+#
+# Legacy Timer Group Driver Configurations
+#
+# end of Legacy Timer Group Driver Configurations
+#
+# Legacy RMT Driver Configurations
+#
+# end of Legacy RMT Driver Configurations
+#
+# Legacy I2S Driver Configurations
+#
+# end of Legacy I2S Driver Configurations
+#
+# Legacy I2C Driver Configurations
+#
+# end of Legacy I2C Driver Configurations
+#
+# Legacy PCNT Driver Configurations
+#
+# end of Legacy PCNT Driver Configurations
+#
+# Legacy SDM Driver Configurations
+#
+# end of Legacy SDM Driver Configurations
+#
+# Legacy Temperature Sensor Driver Configurations
+#
+# end of Legacy Temperature Sensor Driver Configurations
+#
+# Legacy Touch Sensor Driver Configurations
+#
+# end of Legacy Touch Sensor Driver Configurations
+# end of Driver Configurations
+#
+# eFuse Bit Manager
+#
+# end of eFuse Bit Manager
+#
+# ESP-TLS
+#
+# end of ESP-TLS
+#
+# ADC and ADC Calibration
+#
+# end of ADC and ADC Calibration
+#
+# Wireless Coexistence
+#
+# end of Wireless Coexistence
+#
+# Common ESP-related
+#
+# end of Common ESP-related
+#
+# ESP-Driver:Camera Controller Configurations
+#
+# end of ESP-Driver:Camera Controller Configurations
+#
+# ESP-Driver:GPIO Configurations
+#
+# end of ESP-Driver:GPIO Configurations
+#
+# ESP-Driver:GPTimer Configurations
+#
+# end of ESP-Driver:GPTimer Configurations
+#
+# ESP-Driver:I2C Configurations
+#
+# end of ESP-Driver:I2C Configurations
+#
+# ESP-Driver:I2S Configurations
+#
+# end of ESP-Driver:I2S Configurations
+#
+# ESP-Driver:LEDC Configurations
+#
+# end of ESP-Driver:LEDC Configurations
+#
+# ESP-Driver:MCPWM Configurations
+#
+# end of ESP-Driver:MCPWM Configurations
+#
+# ESP-Driver:PCNT Configurations
+#
+# end of ESP-Driver:PCNT Configurations
+#
+# ESP-Driver:RMT Configurations
+#
+# end of ESP-Driver:RMT Configurations
+#
+# ESP-Driver:Sigma Delta Modulator Configurations
+#
+# end of ESP-Driver:Sigma Delta Modulator Configurations
+#
+# ESP-Driver:SPI Configurations
+#
+# end of ESP-Driver:SPI Configurations
+#
+# ESP-Driver:Touch Sensor Configurations
+#
+# end of ESP-Driver:Touch Sensor Configurations
+#
+# ESP-Driver:Temperature Sensor Configurations
+#
+# end of ESP-Driver:Temperature Sensor Configurations
+#
+# ESP-Driver:TWAI Configurations
+#
+# end of ESP-Driver:TWAI Configurations
+#
+# ESP-Driver:UART Configurations
+#
+# end of ESP-Driver:UART Configurations
+#
+# ESP-Driver:UHCI Configurations
+#
+# end of ESP-Driver:UHCI Configurations
+#
+# ESP-Driver:USB Serial/JTAG Configuration
+#
+# end of ESP-Driver:USB Serial/JTAG Configuration
+#
+# Ethernet
+#
+# end of Ethernet
+#
+# Event Loop Library
+#
+# end of Event Loop Library
+#
+# GDB Stub
+#
+# end of GDB Stub
+#
+# ESP HID
+#
+# end of ESP HID
+#
+# ESP HTTP client
+#
+# end of ESP HTTP client
+#
+# HTTP Server
+#
+# end of HTTP Server
+#
+# ESP HTTPS OTA
+#
+# end of ESP HTTPS OTA
+#
+# ESP HTTPS server
+#
+# end of ESP HTTPS server
+#
+# Hardware Settings
+#
+#
+# Chip revision
+#
+#
+# Maximum Supported ESP32-S3 Revision (Rev v0.99)
+#
+#
+# Maximum Supported ESP32-S3 eFuse Block Revision (eFuse Block Rev v1.99)
+#
+# end of Chip revision
+#
+# MAC Config
+#
+# end of MAC Config
+#
+# Sleep Config
+#
+# end of Sleep Config
+#
+# RTC Clock Config
+#
+# end of RTC Clock Config
+#
+# Peripheral Control
+#
+# end of Peripheral Control
+#
+# GDMA Configurations
+#
+# end of GDMA Configurations
+#
+# Main XTAL Config
+#
+# end of Main XTAL Config
+#
+# Power Supplier
+#
+#
+# Brownout Detector
+#
+# end of Brownout Detector
+# end of Power Supplier
+# end of Hardware Settings
+#
+# ESP-Driver:LCD Controller Configurations
+#
+# end of ESP-Driver:LCD Controller Configurations
+#
+# ESP-MM: Memory Management Configurations
+#
+# end of ESP-MM: Memory Management Configurations
+#
+# ESP NETIF Adapter
+#
+# end of ESP NETIF Adapter
+#
+# Partition API Configuration
+#
+# end of Partition API Configuration
+#
+# PHY
+#
+# end of PHY
+#
+# Power Management
+#
+# end of Power Management
+#
+# ESP PSRAM
+#
+CONFIG_SPIRAM=y
+#
+# SPI RAM config
+#
+# CONFIG_SPIRAM_MODE_QUAD is not set
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_TYPE_AUTO=y
+# CONFIG_SPIRAM_SPEED_120M is not set
+CONFIG_SPIRAM_SPEED_80M=y
+# CONFIG_SPIRAM_SPEED_40M is not set
+CONFIG_SPIRAM_SPEED=80
+# end of SPI RAM config
+# end of ESP PSRAM
+#
+# ESP Ringbuf
+#
+# end of ESP Ringbuf
+#
+# ESP-ROM
+#
+# end of ESP-ROM
+#
+# ESP Security Specific
+#
+# end of ESP Security Specific
+#
+# ESP System Settings
+#
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80 is not set
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160 is not set
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ=240
+#
+# Cache config
+#
+# end of Cache config
+#
+# Memory
+#
+# end of Memory
+#
+# Trace memory
+#
+# end of Trace memory
+#
+# Memory protection
+#
+# end of Memory protection
+# end of ESP System Settings
+#
+# IPC (Inter-Processor Call)
+#
+# end of IPC (Inter-Processor Call)
+#
+# ESP Timer (High Resolution Timer)
+#
+# end of ESP Timer (High Resolution Timer)
+#
+# Wi-Fi
+#
+#
+# WPS Configuration Options
+#
+# end of WPS Configuration Options
+# end of Wi-Fi
+#
+# Core dump
+#
+# end of Core dump
+#
+# FAT Filesystem support
+#
+#
+# File system free space calculation behavior
+#
+# end of File system free space calculation behavior
+# end of FAT Filesystem support
+#
+# FreeRTOS
+#
+#
+# Kernel
+#
+# end of Kernel
+#
+# Port
+#
+# end of Port
+#
+# Extra
+#
+# end of Extra
+# end of FreeRTOS
+#
+# Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# end of Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# Heap memory debugging
+#
+# end of Heap memory debugging
+#
+# Log
+#
+#
+# Log Level
+#
+#
+# Level Settings
+#
+# end of Level Settings
+# end of Log Level
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# LWIP
+#
+#
+# DHCP server
+#
+# end of DHCP server
+#
+# TCP
+#
+# end of TCP
+#
+# UDP
+#
+# end of UDP
+#
+# Checksums
+#
+# end of Checksums
+#
+# ICMP
+#
+# end of ICMP
+#
+# LWIP RAW API
+#
+# end of LWIP RAW API
+#
+# SNTP
+#
+# end of SNTP
+#
+# DNS
+#
+# end of DNS
+#
+# Hooks
+#
+# end of Hooks
+# end of LWIP
+#
+# mbedTLS
+#
+#
+# mbedTLS v3.x related
+#
+#
+# DTLS-based configurations
+#
+# end of DTLS-based configurations
+# end of mbedTLS v3.x related
+#
+# Certificate Bundle
+#
+# end of Certificate Bundle
+#
+# TLS Key Exchange Methods
+#
+# end of TLS Key Exchange Methods
+#
+# Symmetric Ciphers
+#
+# end of Symmetric Ciphers
+#
+# Certificates
+#
+# end of Certificates
+# end of mbedTLS
+#
+# ESP-MQTT Configurations
+#
+# end of ESP-MQTT Configurations
+#
+# LibC
+#
+# end of LibC
+#
+# NVS
+#
+# end of NVS
+#
+# OpenThread
+#
+#
+# OpenThread Spinel
+#
+# end of OpenThread Spinel
+# end of OpenThread
+#
+# Protocomm
+#
+# end of Protocomm
+#
+# PThreads
+#
+# end of PThreads
+#
+# MMU Config
+#
+# end of MMU Config
+#
+# Main Flash configuration
+#
+#
+# SPI Flash behavior when brownout
+#
+# end of SPI Flash behavior when brownout
+#
+# Optional and Experimental Features (READ DOCS FIRST)
+#
+#
+# Features here require specific hardware (READ DOCS FIRST!)
+#
+# end of Optional and Experimental Features (READ DOCS FIRST)
+# end of Main Flash configuration
+#
+# SPI Flash driver
+#
+#
+# Auto-detect flash chips
+#
+# end of Auto-detect flash chips
+# end of SPI Flash driver
+#
+# SPIFFS Configuration
+#
+#
+# SPIFFS Cache Configuration
+#
+# end of SPIFFS Cache Configuration
+#
+# Debug Configuration
+#
+# end of Debug Configuration
+# end of SPIFFS Configuration
+#
+# TCP Transport
+#
+#
+# Websocket
+#
+# end of Websocket
+# end of TCP Transport
+#
+# Ultra Low Power (ULP) Co-processor
+#
+#
+# ULP Debugging Options
+#
+# end of ULP Debugging Options
+# end of Ultra Low Power (ULP) Co-processor
+#
+# Unity unit testing library
+#
+# end of Unity unit testing library
+#
+# USB-OTG
+#
+#
+# Hub Driver Configuration
+#
+#
+# Root Port configuration
+#
+# end of Root Port configuration
+#
+# Downstream Port configuration
+#
+# end of Downstream Port configuration
+# end of Hub Driver Configuration
+# end of USB-OTG
+#
+# Virtual file system
+#
+#
+# Host File System I/O (Semihosting)
+#
+# end of Host File System I/O (Semihosting)
+# end of Virtual file system
+#
+# Wear Levelling
+#
+# end of Wear Levelling
+#
+# Wi-Fi Provisioning Manager
+#
+# end of Wi-Fi Provisioning Manager
+#
+# DSP Library
+#
+# end of DSP Library
+#
+# Modbus configuration
+#
+# end of Modbus configuration
+#
+# ESP serial flasher
+#
+# end of ESP serial flasher
+#
+# Zigbee
+#
+#
+# Zigbee Example
+#
+# end of Zigbee Example
+# end of Zigbee
+#
+# Camera configuration
+#
+# end of Camera configuration
+#
+# Diagnostics data store
+#
+#
+# RTC Store
+#
+# end of RTC Store
+# end of Diagnostics data store
+#
+# Diagnostics
+#
+# end of Diagnostics
+#
+# ESP Insights
+#
+# end of ESP Insights
+#
+# JPEG Decoder
+#
+# end of JPEG Decoder
+#
+# CHIP Core
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Networking Options
+#
+# end of Networking Options
+#
+# System Options
+#
+# end of System Options
+#
+# Security Options
+#
+#
+# Debugging
+#
+# end of Debugging
+# end of Security Options
+# end of CHIP Core
+#
+# CHIP Device Layer
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Device Identification Options
+#
+# end of Device Identification Options
+#
+# WiFi Station Options
+#
+# end of WiFi Station Options
+#
+# WiFi AP Options
+#
+# end of WiFi AP Options
+#
+# BLE Options
+#
+# end of BLE Options
+#
+# Time Sync Options
+#
+# end of Time Sync Options
+#
+# Service Provisioning Options
+#
+# end of Service Provisioning Options
+#
+# Commissioning options
+#
+# end of Commissioning options
+#
+# Testing Options
+#
+# end of Testing Options
+#
+# Network Telemetry Options
+#
+# end of Network Telemetry Options
+#
+# Event Logging Options
+#
+# end of Event Logging Options
+#
+# Matter OTA Image
+#
+# end of Matter OTA Image
+#
+# External Platform
+#
+# end of External Platform
+#
+# Matter Manufacturing Options
+#
+# end of Matter Manufacturing Options
+#
+# Commissioning Window Options
+#
+# end of Commissioning Window Options
+#
+# Enable ESP32 as a BLE Commissioner
+#
+# end of Enable ESP32 as a BLE Commissioner
+#
+# Enable BLE Extended Announcement
+#
+# end of Enable BLE Extended Announcement
+#
+# Message Reliable Protocol Options
+#
+# end of Message Reliable Protocol Options
+#
+# Network Commissioning Driver Endpoint Id
+#
+# end of Network Commissioning Driver Endpoint Id
+#
+# Cluster Configuration Options
+#
+# end of Cluster Configuration Options
+# end of CHIP Device Layer
+#
+# ESP Matter
+#
+#
+# Select Supported Matter Clusters
+#
+# end of Select Supported Matter Clusters
+# end of ESP Matter
+#
+# ESP Matter Bridge
+#
+# end of ESP Matter Bridge
+#
+# ESP Matter Console
+#
+# end of ESP Matter Console
+#
+# ESP Matter Controller
+#
+# end of ESP Matter Controller
+#
+# ESP Matter OTA Provider
+#
+# end of ESP Matter OTA Provider
+#
+# esp-modem
+#
+# end of esp-modem
+#
+# OpenThread RCP Update
+#
+# end of OpenThread RCP Update
+#
+# ESP Secure Cert Manager
+#
+# end of ESP Secure Cert Manager
+#
+# jsmn
+#
+# end of jsmn
+#
+# libsodium
+#
+# end of libsodium
+#
+# mDNS
+#
+#
+# MDNS Memory Configuration
+#
+# end of MDNS Memory Configuration
+#
+# MDNS Predefined interfaces
+#
+# end of MDNS Predefined interfaces
+# end of mDNS
+#
+# Network Provisioning Manager
+#
+# end of Network Provisioning Manager
+#
+# ESP RainMaker Common
+#
+# end of ESP RainMaker Common
+#
+# LittleFS
+#
+# end of LittleFS
+# end of Component config
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+# Deprecated options for backward compatibility
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_80 is not set
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_160 is not set
+CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240=y
+# End of deprecated options
+# CONFIG_ESPTOOLPY_FLASHFREQ_26M is not set
+# CONFIG_SPIRAM_SPEED_20M is not set
+# CONFIG_SPIRAM_SPEED_200M is not set
+# TASMOTA__f84e19c11f381208
+#
+# Automatically generated file. DO NOT EDIT.
+# Espressif IoT Development Framework (ESP-IDF) 5.5.2 Project Configuration
+#
+#
+# Build type
+#
+# end of Build type
+#
+# Bootloader config
+#
+#
+# Bootloader manager
+#
+# end of Bootloader manager
+#
+# Application Rollback
+#
+# end of Application Rollback
+#
+# Recovery Bootloader and Rollback
+#
+# end of Recovery Bootloader and Rollback
+#
+# Log
+#
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# Serial Flash Configurations
+#
+# end of Serial Flash Configurations
+# end of Bootloader config
+#
+# Security features
+#
+# end of Security features
+#
+# Application manager
+#
+# end of Application manager
+#
+# Boot ROM Behavior
+#
+# end of Boot ROM Behavior
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+# CONFIG_ESPTOOLPY_FLASHMODE_QOUT is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DIO is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DOUT is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_120M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+# CONFIG_ESPTOOLPY_FLASHFREQ_40M is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_20M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ="80m"
+# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE="16MB"
+# end of Serial flasher config
+#
+# Partition Table
+#
+# end of Partition Table
+#
+# Arduino Configuration
+#
+#
+# Debug Log Configuration
+#
+# end of Debug Log Configuration
+# end of Arduino Configuration
+#
+# Arduino TinyUSB
+#
+#
+# Serial (CDC) driver
+#
+# end of Serial (CDC) driver
+#
+# Mass Storage (MSC) driver
+#
+# end of Mass Storage (MSC) driver
+#
+# Human Interface (HID) driver
+#
+# end of Human Interface (HID) driver
+#
+# MIDI driver
+#
+# end of MIDI driver
+#
+# VIDEO driver
+#
+# end of VIDEO driver
+#
+# DFU Runtime driver
+#
+# end of DFU Runtime driver
+#
+# DFU driver
+#
+# end of DFU driver
+#
+# VENDOR driver
+#
+# end of VENDOR driver
+#
+# NCM driver
+#
+# end of NCM driver
+# end of Arduino TinyUSB
+#
+# ESP-NN
+#
+# end of ESP-NN
+#
+# ESP Speech Recognition
+#
+#
+# Load Multiple Wake Words (WakeNet9s)
+#
+# end of Load Multiple Wake Words (WakeNet9s)
+#
+# Load Multiple Wake Words (WakeNet9)
+#
+# end of Load Multiple Wake Words (WakeNet9)
+#
+# Add English speech commands
+#
+# end of Add English speech commands
+# end of ESP Speech Recognition
+#
+# ESP RainMaker Config
+#
+#
+# ESP RainMaker OTA Config
+#
+# end of ESP RainMaker OTA Config
+#
+# ESP RainMaker Scheduling
+#
+# end of ESP RainMaker Scheduling
+#
+# ESP RainMaker Scenes
+#
+# end of ESP RainMaker Scenes
+#
+# ESP RainMaker Command-Response
+#
+# end of ESP RainMaker Command-Response
+# end of ESP RainMaker Config
+#
+# Compiler options
+#
+# end of Compiler options
+#
+# Component config
+#
+#
+# Application Level Tracing
+#
+# end of Application Level Tracing
+#
+# Bluetooth
+#
+#
+# NimBLE Options
+#
+#
+# General
+#
+# end of General
+#
+# Roles and Profiles
+#
+# end of Roles and Profiles
+#
+# Security (SMP)
+#
+# end of Security (SMP)
+#
+# GAP
+#
+# end of GAP
+#
+# GATT / ATT
+#
+# end of GATT / ATT
+#
+# L2CAP
+#
+# end of L2CAP
+#
+# Memory Settings
+#
+# end of Memory Settings
+#
+# BLE 5.x Features
+#
+# end of BLE 5.x Features
+#
+# Services
+#
+#
+# GAP Appearance write permissions
+#
+# end of GAP Appearance write permissions
+#
+# GAP device name write permissions
+#
+# end of GAP device name write permissions
+#
+# Peripheral Preferred Connection Parameters (PPCP) settings
+#
+# end of Peripheral Preferred Connection Parameters (PPCP) settings
+# end of Services
+#
+# Extra Features
+#
+# end of Extra Features
+#
+# NimBLE Mesh
+#
+# end of NimBLE Mesh
+#
+# Host-controller Transport
+#
+# end of Host-controller Transport
+#
+# Debugging/Testing
+#
+# end of Debugging/Testing
+#
+# Vendor / Optimization
+#
+# end of Vendor / Optimization
+#
+# Helper Utils
+#
+# end of Helper Utils
+# end of NimBLE Options
+#
+# Controller Options
+#
+#
+# MODEM SLEEP Options
+#
+# end of MODEM SLEEP Options
+#
+# BLE disconnects when Instant Passed (0x28) occurs
+#
+# end of BLE disconnects when Instant Passed (0x28) occurs
+#
+# Controller debug log Options (Experimental)
+#
+# end of Controller debug log Options (Experimental)
+# end of Controller Options
+#
+# Common Options
+#
+#
+# BLE Log
+#
+# end of BLE Log
+# end of Common Options
+# end of Bluetooth
+#
+# BLE Mesh and BLE coexistence support
+#
+# end of BLE Mesh and BLE coexistence support
+#
+# BLE Mesh STACK DEBUG LOG LEVEL
+#
+# end of BLE Mesh STACK DEBUG LOG LEVEL
+#
+# BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# end of BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# Support for BLE Mesh Foundation models
+#
+# end of Support for BLE Mesh Foundation models
+#
+# Support for BLE Mesh Client/Server models
+#
+#
+# Binary Larger Object Transfer model
+#
+# end of Binary Larger Object Transfer model
+#
+# Device Firmware Update model
+#
+# end of Device Firmware Update model
+# end of Support for BLE Mesh Client/Server models
+#
+# BLE Mesh specific test option
+#
+# end of BLE Mesh specific test option
+#
+# Console Library
+#
+# end of Console Library
+#
+# Driver Configurations
+#
+#
+# Legacy TWAI Driver Configurations
+#
+# end of Legacy TWAI Driver Configurations
+#
+# Legacy ADC Driver Configuration
+#
+#
+# Legacy ADC Calibration Configuration
+#
+# end of Legacy ADC Calibration Configuration
+# end of Legacy ADC Driver Configuration
+#
+# Legacy MCPWM Driver Configurations
+#
+# end of Legacy MCPWM Driver Configurations
+#
+# Legacy Timer Group Driver Configurations
+#
+# end of Legacy Timer Group Driver Configurations
+#
+# Legacy RMT Driver Configurations
+#
+# end of Legacy RMT Driver Configurations
+#
+# Legacy I2S Driver Configurations
+#
+# end of Legacy I2S Driver Configurations
+#
+# Legacy I2C Driver Configurations
+#
+# end of Legacy I2C Driver Configurations
+#
+# Legacy PCNT Driver Configurations
+#
+# end of Legacy PCNT Driver Configurations
+#
+# Legacy SDM Driver Configurations
+#
+# end of Legacy SDM Driver Configurations
+#
+# Legacy Temperature Sensor Driver Configurations
+#
+# end of Legacy Temperature Sensor Driver Configurations
+#
+# Legacy Touch Sensor Driver Configurations
+#
+# end of Legacy Touch Sensor Driver Configurations
+# end of Driver Configurations
+#
+# eFuse Bit Manager
+#
+# end of eFuse Bit Manager
+#
+# ESP-TLS
+#
+# end of ESP-TLS
+#
+# ADC and ADC Calibration
+#
+# end of ADC and ADC Calibration
+#
+# Wireless Coexistence
+#
+# end of Wireless Coexistence
+#
+# Common ESP-related
+#
+# end of Common ESP-related
+#
+# ESP-Driver:Camera Controller Configurations
+#
+# end of ESP-Driver:Camera Controller Configurations
+#
+# ESP-Driver:GPIO Configurations
+#
+# end of ESP-Driver:GPIO Configurations
+#
+# ESP-Driver:GPTimer Configurations
+#
+# end of ESP-Driver:GPTimer Configurations
+#
+# ESP-Driver:I2C Configurations
+#
+# end of ESP-Driver:I2C Configurations
+#
+# ESP-Driver:I2S Configurations
+#
+# end of ESP-Driver:I2S Configurations
+#
+# ESP-Driver:LEDC Configurations
+#
+# end of ESP-Driver:LEDC Configurations
+#
+# ESP-Driver:MCPWM Configurations
+#
+# end of ESP-Driver:MCPWM Configurations
+#
+# ESP-Driver:PCNT Configurations
+#
+# end of ESP-Driver:PCNT Configurations
+#
+# ESP-Driver:RMT Configurations
+#
+# end of ESP-Driver:RMT Configurations
+#
+# ESP-Driver:Sigma Delta Modulator Configurations
+#
+# end of ESP-Driver:Sigma Delta Modulator Configurations
+#
+# ESP-Driver:SPI Configurations
+#
+# end of ESP-Driver:SPI Configurations
+#
+# ESP-Driver:Touch Sensor Configurations
+#
+# end of ESP-Driver:Touch Sensor Configurations
+#
+# ESP-Driver:Temperature Sensor Configurations
+#
+# end of ESP-Driver:Temperature Sensor Configurations
+#
+# ESP-Driver:TWAI Configurations
+#
+# end of ESP-Driver:TWAI Configurations
+#
+# ESP-Driver:UART Configurations
+#
+# end of ESP-Driver:UART Configurations
+#
+# ESP-Driver:UHCI Configurations
+#
+# end of ESP-Driver:UHCI Configurations
+#
+# ESP-Driver:USB Serial/JTAG Configuration
+#
+# end of ESP-Driver:USB Serial/JTAG Configuration
+#
+# Ethernet
+#
+# end of Ethernet
+#
+# Event Loop Library
+#
+# end of Event Loop Library
+#
+# GDB Stub
+#
+# end of GDB Stub
+#
+# ESP HID
+#
+# end of ESP HID
+#
+# ESP HTTP client
+#
+# end of ESP HTTP client
+#
+# HTTP Server
+#
+# end of HTTP Server
+#
+# ESP HTTPS OTA
+#
+# end of ESP HTTPS OTA
+#
+# ESP HTTPS server
+#
+# end of ESP HTTPS server
+#
+# Hardware Settings
+#
+#
+# Chip revision
+#
+#
+# Maximum Supported ESP32-S3 Revision (Rev v0.99)
+#
+#
+# Maximum Supported ESP32-S3 eFuse Block Revision (eFuse Block Rev v1.99)
+#
+# end of Chip revision
+#
+# MAC Config
+#
+# end of MAC Config
+#
+# Sleep Config
+#
+# end of Sleep Config
+#
+# RTC Clock Config
+#
+# end of RTC Clock Config
+#
+# Peripheral Control
+#
+# end of Peripheral Control
+#
+# GDMA Configurations
+#
+# end of GDMA Configurations
+#
+# Main XTAL Config
+#
+# end of Main XTAL Config
+#
+# Power Supplier
+#
+#
+# Brownout Detector
+#
+# end of Brownout Detector
+# end of Power Supplier
+# end of Hardware Settings
+#
+# ESP-Driver:LCD Controller Configurations
+#
+# end of ESP-Driver:LCD Controller Configurations
+#
+# ESP-MM: Memory Management Configurations
+#
+# end of ESP-MM: Memory Management Configurations
+#
+# ESP NETIF Adapter
+#
+# end of ESP NETIF Adapter
+#
+# Partition API Configuration
+#
+# end of Partition API Configuration
+#
+# PHY
+#
+# end of PHY
+#
+# Power Management
+#
+# end of Power Management
+#
+# ESP PSRAM
+#
+CONFIG_SPIRAM=y
+#
+# SPI RAM config
+#
+# CONFIG_SPIRAM_MODE_QUAD is not set
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_TYPE_AUTO=y
+# CONFIG_SPIRAM_SPEED_120M is not set
+CONFIG_SPIRAM_SPEED_80M=y
+# CONFIG_SPIRAM_SPEED_40M is not set
+CONFIG_SPIRAM_SPEED=80
+# end of SPI RAM config
+# end of ESP PSRAM
+#
+# ESP Ringbuf
+#
+# end of ESP Ringbuf
+#
+# ESP-ROM
+#
+# end of ESP-ROM
+#
+# ESP Security Specific
+#
+# end of ESP Security Specific
+#
+# ESP System Settings
+#
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80 is not set
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160 is not set
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ=240
+#
+# Cache config
+#
+# end of Cache config
+#
+# Memory
+#
+# end of Memory
+#
+# Trace memory
+#
+# end of Trace memory
+#
+# Memory protection
+#
+# end of Memory protection
+# end of ESP System Settings
+#
+# IPC (Inter-Processor Call)
+#
+# end of IPC (Inter-Processor Call)
+#
+# ESP Timer (High Resolution Timer)
+#
+# end of ESP Timer (High Resolution Timer)
+#
+# Wi-Fi
+#
+#
+# WPS Configuration Options
+#
+# end of WPS Configuration Options
+# end of Wi-Fi
+#
+# Core dump
+#
+# end of Core dump
+#
+# FAT Filesystem support
+#
+#
+# File system free space calculation behavior
+#
+# end of File system free space calculation behavior
+# end of FAT Filesystem support
+#
+# FreeRTOS
+#
+#
+# Kernel
+#
+# end of Kernel
+#
+# Port
+#
+# end of Port
+#
+# Extra
+#
+# end of Extra
+# end of FreeRTOS
+#
+# Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# end of Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# Heap memory debugging
+#
+# end of Heap memory debugging
+#
+# Log
+#
+#
+# Log Level
+#
+#
+# Level Settings
+#
+# end of Level Settings
+# end of Log Level
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# LWIP
+#
+#
+# DHCP server
+#
+# end of DHCP server
+#
+# TCP
+#
+# end of TCP
+#
+# UDP
+#
+# end of UDP
+#
+# Checksums
+#
+# end of Checksums
+#
+# ICMP
+#
+# end of ICMP
+#
+# LWIP RAW API
+#
+# end of LWIP RAW API
+#
+# SNTP
+#
+# end of SNTP
+#
+# DNS
+#
+# end of DNS
+#
+# Hooks
+#
+# end of Hooks
+# end of LWIP
+#
+# mbedTLS
+#
+#
+# mbedTLS v3.x related
+#
+#
+# DTLS-based configurations
+#
+# end of DTLS-based configurations
+# end of mbedTLS v3.x related
+#
+# Certificate Bundle
+#
+# end of Certificate Bundle
+#
+# TLS Key Exchange Methods
+#
+# end of TLS Key Exchange Methods
+#
+# Symmetric Ciphers
+#
+# end of Symmetric Ciphers
+#
+# Certificates
+#
+# end of Certificates
+# end of mbedTLS
+#
+# ESP-MQTT Configurations
+#
+# end of ESP-MQTT Configurations
+#
+# LibC
+#
+# end of LibC
+#
+# NVS
+#
+# end of NVS
+#
+# OpenThread
+#
+#
+# OpenThread Spinel
+#
+# end of OpenThread Spinel
+# end of OpenThread
+#
+# Protocomm
+#
+# end of Protocomm
+#
+# PThreads
+#
+# end of PThreads
+#
+# MMU Config
+#
+# end of MMU Config
+#
+# Main Flash configuration
+#
+#
+# SPI Flash behavior when brownout
+#
+# end of SPI Flash behavior when brownout
+#
+# Optional and Experimental Features (READ DOCS FIRST)
+#
+#
+# Features here require specific hardware (READ DOCS FIRST!)
+#
+# end of Optional and Experimental Features (READ DOCS FIRST)
+# end of Main Flash configuration
+#
+# SPI Flash driver
+#
+#
+# Auto-detect flash chips
+#
+# end of Auto-detect flash chips
+# end of SPI Flash driver
+#
+# SPIFFS Configuration
+#
+#
+# SPIFFS Cache Configuration
+#
+# end of SPIFFS Cache Configuration
+#
+# Debug Configuration
+#
+# end of Debug Configuration
+# end of SPIFFS Configuration
+#
+# TCP Transport
+#
+#
+# Websocket
+#
+# end of Websocket
+# end of TCP Transport
+#
+# Ultra Low Power (ULP) Co-processor
+#
+#
+# ULP Debugging Options
+#
+# end of ULP Debugging Options
+# end of Ultra Low Power (ULP) Co-processor
+#
+# Unity unit testing library
+#
+# end of Unity unit testing library
+#
+# USB-OTG
+#
+#
+# Hub Driver Configuration
+#
+#
+# Root Port configuration
+#
+# end of Root Port configuration
+#
+# Downstream Port configuration
+#
+# end of Downstream Port configuration
+# end of Hub Driver Configuration
+# end of USB-OTG
+#
+# Virtual file system
+#
+#
+# Host File System I/O (Semihosting)
+#
+# end of Host File System I/O (Semihosting)
+# end of Virtual file system
+#
+# Wear Levelling
+#
+# end of Wear Levelling
+#
+# Wi-Fi Provisioning Manager
+#
+# end of Wi-Fi Provisioning Manager
+#
+# DSP Library
+#
+# end of DSP Library
+#
+# Modbus configuration
+#
+# end of Modbus configuration
+#
+# ESP serial flasher
+#
+# end of ESP serial flasher
+#
+# Zigbee
+#
+#
+# Zigbee Example
+#
+# end of Zigbee Example
+# end of Zigbee
+#
+# Camera configuration
+#
+# end of Camera configuration
+#
+# Diagnostics data store
+#
+#
+# RTC Store
+#
+# end of RTC Store
+# end of Diagnostics data store
+#
+# Diagnostics
+#
+# end of Diagnostics
+#
+# ESP Insights
+#
+# end of ESP Insights
+#
+# JPEG Decoder
+#
+# end of JPEG Decoder
+#
+# CHIP Core
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Networking Options
+#
+# end of Networking Options
+#
+# System Options
+#
+# end of System Options
+#
+# Security Options
+#
+#
+# Debugging
+#
+# end of Debugging
+# end of Security Options
+# end of CHIP Core
+#
+# CHIP Device Layer
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Device Identification Options
+#
+# end of Device Identification Options
+#
+# WiFi Station Options
+#
+# end of WiFi Station Options
+#
+# WiFi AP Options
+#
+# end of WiFi AP Options
+#
+# BLE Options
+#
+# end of BLE Options
+#
+# Time Sync Options
+#
+# end of Time Sync Options
+#
+# Service Provisioning Options
+#
+# end of Service Provisioning Options
+#
+# Commissioning options
+#
+# end of Commissioning options
+#
+# Testing Options
+#
+# end of Testing Options
+#
+# Network Telemetry Options
+#
+# end of Network Telemetry Options
+#
+# Event Logging Options
+#
+# end of Event Logging Options
+#
+# Matter OTA Image
+#
+# end of Matter OTA Image
+#
+# External Platform
+#
+# end of External Platform
+#
+# Matter Manufacturing Options
+#
+# end of Matter Manufacturing Options
+#
+# Commissioning Window Options
+#
+# end of Commissioning Window Options
+#
+# Enable ESP32 as a BLE Commissioner
+#
+# end of Enable ESP32 as a BLE Commissioner
+#
+# Enable BLE Extended Announcement
+#
+# end of Enable BLE Extended Announcement
+#
+# Message Reliable Protocol Options
+#
+# end of Message Reliable Protocol Options
+#
+# Network Commissioning Driver Endpoint Id
+#
+# end of Network Commissioning Driver Endpoint Id
+#
+# Cluster Configuration Options
+#
+# end of Cluster Configuration Options
+# end of CHIP Device Layer
+#
+# ESP Matter
+#
+#
+# Select Supported Matter Clusters
+#
+# end of Select Supported Matter Clusters
+# end of ESP Matter
+#
+# ESP Matter Bridge
+#
+# end of ESP Matter Bridge
+#
+# ESP Matter Console
+#
+# end of ESP Matter Console
+#
+# ESP Matter Controller
+#
+# end of ESP Matter Controller
+#
+# ESP Matter OTA Provider
+#
+# end of ESP Matter OTA Provider
+#
+# esp-modem
+#
+# end of esp-modem
+#
+# OpenThread RCP Update
+#
+# end of OpenThread RCP Update
+#
+# ESP Secure Cert Manager
+#
+# end of ESP Secure Cert Manager
+#
+# jsmn
+#
+# end of jsmn
+#
+# libsodium
+#
+# end of libsodium
+#
+# mDNS
+#
+#
+# MDNS Memory Configuration
+#
+# end of MDNS Memory Configuration
+#
+# MDNS Predefined interfaces
+#
+# end of MDNS Predefined interfaces
+# end of mDNS
+#
+# Network Provisioning Manager
+#
+# end of Network Provisioning Manager
+#
+# ESP RainMaker Common
+#
+# end of ESP RainMaker Common
+#
+# LittleFS
+#
+# end of LittleFS
+# end of Component config
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+# Deprecated options for backward compatibility
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_80 is not set
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_160 is not set
+CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240=y
+# End of deprecated options
+# CONFIG_ESPTOOLPY_FLASHFREQ_26M is not set
+# CONFIG_SPIRAM_SPEED_20M is not set
+# CONFIG_SPIRAM_SPEED_200M is not set
+# TASMOTA__f84e19c11f381208
+#
+# Automatically generated file. DO NOT EDIT.
+# Espressif IoT Development Framework (ESP-IDF) 5.5.2 Project Configuration
+#
+#
+# Build type
+#
+# end of Build type
+#
+# Bootloader config
+#
+#
+# Bootloader manager
+#
+# end of Bootloader manager
+#
+# Application Rollback
+#
+# end of Application Rollback
+#
+# Recovery Bootloader and Rollback
+#
+# end of Recovery Bootloader and Rollback
+#
+# Log
+#
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# Serial Flash Configurations
+#
+# end of Serial Flash Configurations
+# end of Bootloader config
+#
+# Security features
+#
+# end of Security features
+#
+# Application manager
+#
+# end of Application manager
+#
+# Boot ROM Behavior
+#
+# end of Boot ROM Behavior
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+# CONFIG_ESPTOOLPY_FLASHMODE_QOUT is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DIO is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DOUT is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_120M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+# CONFIG_ESPTOOLPY_FLASHFREQ_40M is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_20M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ="80m"
+# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE="16MB"
+# end of Serial flasher config
+#
+# Partition Table
+#
+# end of Partition Table
+#
+# Arduino Configuration
+#
+#
+# Debug Log Configuration
+#
+# end of Debug Log Configuration
+# end of Arduino Configuration
+#
+# Arduino TinyUSB
+#
+#
+# Serial (CDC) driver
+#
+# end of Serial (CDC) driver
+#
+# Mass Storage (MSC) driver
+#
+# end of Mass Storage (MSC) driver
+#
+# Human Interface (HID) driver
+#
+# end of Human Interface (HID) driver
+#
+# MIDI driver
+#
+# end of MIDI driver
+#
+# VIDEO driver
+#
+# end of VIDEO driver
+#
+# DFU Runtime driver
+#
+# end of DFU Runtime driver
+#
+# DFU driver
+#
+# end of DFU driver
+#
+# VENDOR driver
+#
+# end of VENDOR driver
+#
+# NCM driver
+#
+# end of NCM driver
+# end of Arduino TinyUSB
+#
+# ESP-NN
+#
+# end of ESP-NN
+#
+# ESP Speech Recognition
+#
+#
+# Load Multiple Wake Words (WakeNet9s)
+#
+# end of Load Multiple Wake Words (WakeNet9s)
+#
+# Load Multiple Wake Words (WakeNet9)
+#
+# end of Load Multiple Wake Words (WakeNet9)
+#
+# Add English speech commands
+#
+# end of Add English speech commands
+# end of ESP Speech Recognition
+#
+# ESP RainMaker Config
+#
+#
+# ESP RainMaker OTA Config
+#
+# end of ESP RainMaker OTA Config
+#
+# ESP RainMaker Scheduling
+#
+# end of ESP RainMaker Scheduling
+#
+# ESP RainMaker Scenes
+#
+# end of ESP RainMaker Scenes
+#
+# ESP RainMaker Command-Response
+#
+# end of ESP RainMaker Command-Response
+# end of ESP RainMaker Config
+#
+# Compiler options
+#
+# end of Compiler options
+#
+# Component config
+#
+#
+# Application Level Tracing
+#
+# end of Application Level Tracing
+#
+# Bluetooth
+#
+#
+# NimBLE Options
+#
+#
+# General
+#
+# end of General
+#
+# Roles and Profiles
+#
+# end of Roles and Profiles
+#
+# Security (SMP)
+#
+# end of Security (SMP)
+#
+# GAP
+#
+# end of GAP
+#
+# GATT / ATT
+#
+# end of GATT / ATT
+#
+# L2CAP
+#
+# end of L2CAP
+#
+# Memory Settings
+#
+# end of Memory Settings
+#
+# BLE 5.x Features
+#
+# end of BLE 5.x Features
+#
+# Services
+#
+#
+# GAP Appearance write permissions
+#
+# end of GAP Appearance write permissions
+#
+# GAP device name write permissions
+#
+# end of GAP device name write permissions
+#
+# Peripheral Preferred Connection Parameters (PPCP) settings
+#
+# end of Peripheral Preferred Connection Parameters (PPCP) settings
+# end of Services
+#
+# Extra Features
+#
+# end of Extra Features
+#
+# NimBLE Mesh
+#
+# end of NimBLE Mesh
+#
+# Host-controller Transport
+#
+# end of Host-controller Transport
+#
+# Debugging/Testing
+#
+# end of Debugging/Testing
+#
+# Vendor / Optimization
+#
+# end of Vendor / Optimization
+#
+# Helper Utils
+#
+# end of Helper Utils
+# end of NimBLE Options
+#
+# Controller Options
+#
+#
+# MODEM SLEEP Options
+#
+# end of MODEM SLEEP Options
+#
+# BLE disconnects when Instant Passed (0x28) occurs
+#
+# end of BLE disconnects when Instant Passed (0x28) occurs
+#
+# Controller debug log Options (Experimental)
+#
+# end of Controller debug log Options (Experimental)
+# end of Controller Options
+#
+# Common Options
+#
+#
+# BLE Log
+#
+# end of BLE Log
+# end of Common Options
+# end of Bluetooth
+#
+# BLE Mesh and BLE coexistence support
+#
+# end of BLE Mesh and BLE coexistence support
+#
+# BLE Mesh STACK DEBUG LOG LEVEL
+#
+# end of BLE Mesh STACK DEBUG LOG LEVEL
+#
+# BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# end of BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# Support for BLE Mesh Foundation models
+#
+# end of Support for BLE Mesh Foundation models
+#
+# Support for BLE Mesh Client/Server models
+#
+#
+# Binary Larger Object Transfer model
+#
+# end of Binary Larger Object Transfer model
+#
+# Device Firmware Update model
+#
+# end of Device Firmware Update model
+# end of Support for BLE Mesh Client/Server models
+#
+# BLE Mesh specific test option
+#
+# end of BLE Mesh specific test option
+#
+# Console Library
+#
+# end of Console Library
+#
+# Driver Configurations
+#
+#
+# Legacy TWAI Driver Configurations
+#
+# end of Legacy TWAI Driver Configurations
+#
+# Legacy ADC Driver Configuration
+#
+#
+# Legacy ADC Calibration Configuration
+#
+# end of Legacy ADC Calibration Configuration
+# end of Legacy ADC Driver Configuration
+#
+# Legacy MCPWM Driver Configurations
+#
+# end of Legacy MCPWM Driver Configurations
+#
+# Legacy Timer Group Driver Configurations
+#
+# end of Legacy Timer Group Driver Configurations
+#
+# Legacy RMT Driver Configurations
+#
+# end of Legacy RMT Driver Configurations
+#
+# Legacy I2S Driver Configurations
+#
+# end of Legacy I2S Driver Configurations
+#
+# Legacy I2C Driver Configurations
+#
+# end of Legacy I2C Driver Configurations
+#
+# Legacy PCNT Driver Configurations
+#
+# end of Legacy PCNT Driver Configurations
+#
+# Legacy SDM Driver Configurations
+#
+# end of Legacy SDM Driver Configurations
+#
+# Legacy Temperature Sensor Driver Configurations
+#
+# end of Legacy Temperature Sensor Driver Configurations
+#
+# Legacy Touch Sensor Driver Configurations
+#
+# end of Legacy Touch Sensor Driver Configurations
+# end of Driver Configurations
+#
+# eFuse Bit Manager
+#
+# end of eFuse Bit Manager
+#
+# ESP-TLS
+#
+# end of ESP-TLS
+#
+# ADC and ADC Calibration
+#
+# end of ADC and ADC Calibration
+#
+# Wireless Coexistence
+#
+# end of Wireless Coexistence
+#
+# Common ESP-related
+#
+# end of Common ESP-related
+#
+# ESP-Driver:Camera Controller Configurations
+#
+# end of ESP-Driver:Camera Controller Configurations
+#
+# ESP-Driver:GPIO Configurations
+#
+# end of ESP-Driver:GPIO Configurations
+#
+# ESP-Driver:GPTimer Configurations
+#
+# end of ESP-Driver:GPTimer Configurations
+#
+# ESP-Driver:I2C Configurations
+#
+# end of ESP-Driver:I2C Configurations
+#
+# ESP-Driver:I2S Configurations
+#
+# end of ESP-Driver:I2S Configurations
+#
+# ESP-Driver:LEDC Configurations
+#
+# end of ESP-Driver:LEDC Configurations
+#
+# ESP-Driver:MCPWM Configurations
+#
+# end of ESP-Driver:MCPWM Configurations
+#
+# ESP-Driver:PCNT Configurations
+#
+# end of ESP-Driver:PCNT Configurations
+#
+# ESP-Driver:RMT Configurations
+#
+# end of ESP-Driver:RMT Configurations
+#
+# ESP-Driver:Sigma Delta Modulator Configurations
+#
+# end of ESP-Driver:Sigma Delta Modulator Configurations
+#
+# ESP-Driver:SPI Configurations
+#
+# end of ESP-Driver:SPI Configurations
+#
+# ESP-Driver:Touch Sensor Configurations
+#
+# end of ESP-Driver:Touch Sensor Configurations
+#
+# ESP-Driver:Temperature Sensor Configurations
+#
+# end of ESP-Driver:Temperature Sensor Configurations
+#
+# ESP-Driver:TWAI Configurations
+#
+# end of ESP-Driver:TWAI Configurations
+#
+# ESP-Driver:UART Configurations
+#
+# end of ESP-Driver:UART Configurations
+#
+# ESP-Driver:UHCI Configurations
+#
+# end of ESP-Driver:UHCI Configurations
+#
+# ESP-Driver:USB Serial/JTAG Configuration
+#
+# end of ESP-Driver:USB Serial/JTAG Configuration
+#
+# Ethernet
+#
+# end of Ethernet
+#
+# Event Loop Library
+#
+# end of Event Loop Library
+#
+# GDB Stub
+#
+# end of GDB Stub
+#
+# ESP HID
+#
+# end of ESP HID
+#
+# ESP HTTP client
+#
+# end of ESP HTTP client
+#
+# HTTP Server
+#
+# end of HTTP Server
+#
+# ESP HTTPS OTA
+#
+# end of ESP HTTPS OTA
+#
+# ESP HTTPS server
+#
+# end of ESP HTTPS server
+#
+# Hardware Settings
+#
+#
+# Chip revision
+#
+#
+# Maximum Supported ESP32-S3 Revision (Rev v0.99)
+#
+#
+# Maximum Supported ESP32-S3 eFuse Block Revision (eFuse Block Rev v1.99)
+#
+# end of Chip revision
+#
+# MAC Config
+#
+# end of MAC Config
+#
+# Sleep Config
+#
+# end of Sleep Config
+#
+# RTC Clock Config
+#
+# end of RTC Clock Config
+#
+# Peripheral Control
+#
+# end of Peripheral Control
+#
+# GDMA Configurations
+#
+# end of GDMA Configurations
+#
+# Main XTAL Config
+#
+# end of Main XTAL Config
+#
+# Power Supplier
+#
+#
+# Brownout Detector
+#
+# end of Brownout Detector
+# end of Power Supplier
+# end of Hardware Settings
+#
+# ESP-Driver:LCD Controller Configurations
+#
+# end of ESP-Driver:LCD Controller Configurations
+#
+# ESP-MM: Memory Management Configurations
+#
+# end of ESP-MM: Memory Management Configurations
+#
+# ESP NETIF Adapter
+#
+# end of ESP NETIF Adapter
+#
+# Partition API Configuration
+#
+# end of Partition API Configuration
+#
+# PHY
+#
+# end of PHY
+#
+# Power Management
+#
+# end of Power Management
+#
+# ESP PSRAM
+#
+CONFIG_SPIRAM=y
+#
+# SPI RAM config
+#
+# CONFIG_SPIRAM_MODE_QUAD is not set
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_TYPE_AUTO=y
+# CONFIG_SPIRAM_SPEED_120M is not set
+CONFIG_SPIRAM_SPEED_80M=y
+# CONFIG_SPIRAM_SPEED_40M is not set
+CONFIG_SPIRAM_SPEED=80
+# end of SPI RAM config
+# end of ESP PSRAM
+#
+# ESP Ringbuf
+#
+# end of ESP Ringbuf
+#
+# ESP-ROM
+#
+# end of ESP-ROM
+#
+# ESP Security Specific
+#
+# end of ESP Security Specific
+#
+# ESP System Settings
+#
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80 is not set
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160 is not set
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ=240
+#
+# Cache config
+#
+# end of Cache config
+#
+# Memory
+#
+# end of Memory
+#
+# Trace memory
+#
+# end of Trace memory
+#
+# Memory protection
+#
+# end of Memory protection
+# end of ESP System Settings
+#
+# IPC (Inter-Processor Call)
+#
+# end of IPC (Inter-Processor Call)
+#
+# ESP Timer (High Resolution Timer)
+#
+# end of ESP Timer (High Resolution Timer)
+#
+# Wi-Fi
+#
+#
+# WPS Configuration Options
+#
+# end of WPS Configuration Options
+# end of Wi-Fi
+#
+# Core dump
+#
+# end of Core dump
+#
+# FAT Filesystem support
+#
+#
+# File system free space calculation behavior
+#
+# end of File system free space calculation behavior
+# end of FAT Filesystem support
+#
+# FreeRTOS
+#
+#
+# Kernel
+#
+# end of Kernel
+#
+# Port
+#
+# end of Port
+#
+# Extra
+#
+# end of Extra
+# end of FreeRTOS
+#
+# Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# end of Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# Heap memory debugging
+#
+# end of Heap memory debugging
+#
+# Log
+#
+#
+# Log Level
+#
+#
+# Level Settings
+#
+# end of Level Settings
+# end of Log Level
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# LWIP
+#
+#
+# DHCP server
+#
+# end of DHCP server
+#
+# TCP
+#
+# end of TCP
+#
+# UDP
+#
+# end of UDP
+#
+# Checksums
+#
+# end of Checksums
+#
+# ICMP
+#
+# end of ICMP
+#
+# LWIP RAW API
+#
+# end of LWIP RAW API
+#
+# SNTP
+#
+# end of SNTP
+#
+# DNS
+#
+# end of DNS
+#
+# Hooks
+#
+# end of Hooks
+# end of LWIP
+#
+# mbedTLS
+#
+#
+# mbedTLS v3.x related
+#
+#
+# DTLS-based configurations
+#
+# end of DTLS-based configurations
+# end of mbedTLS v3.x related
+#
+# Certificate Bundle
+#
+# end of Certificate Bundle
+#
+# TLS Key Exchange Methods
+#
+# end of TLS Key Exchange Methods
+#
+# Symmetric Ciphers
+#
+# end of Symmetric Ciphers
+#
+# Certificates
+#
+# end of Certificates
+# end of mbedTLS
+#
+# ESP-MQTT Configurations
+#
+# end of ESP-MQTT Configurations
+#
+# LibC
+#
+# end of LibC
+#
+# NVS
+#
+# end of NVS
+#
+# OpenThread
+#
+#
+# OpenThread Spinel
+#
+# end of OpenThread Spinel
+# end of OpenThread
+#
+# Protocomm
+#
+# end of Protocomm
+#
+# PThreads
+#
+# end of PThreads
+#
+# MMU Config
+#
+# end of MMU Config
+#
+# Main Flash configuration
+#
+#
+# SPI Flash behavior when brownout
+#
+# end of SPI Flash behavior when brownout
+#
+# Optional and Experimental Features (READ DOCS FIRST)
+#
+#
+# Features here require specific hardware (READ DOCS FIRST!)
+#
+# end of Optional and Experimental Features (READ DOCS FIRST)
+# end of Main Flash configuration
+#
+# SPI Flash driver
+#
+#
+# Auto-detect flash chips
+#
+# end of Auto-detect flash chips
+# end of SPI Flash driver
+#
+# SPIFFS Configuration
+#
+#
+# SPIFFS Cache Configuration
+#
+# end of SPIFFS Cache Configuration
+#
+# Debug Configuration
+#
+# end of Debug Configuration
+# end of SPIFFS Configuration
+#
+# TCP Transport
+#
+#
+# Websocket
+#
+# end of Websocket
+# end of TCP Transport
+#
+# Ultra Low Power (ULP) Co-processor
+#
+#
+# ULP Debugging Options
+#
+# end of ULP Debugging Options
+# end of Ultra Low Power (ULP) Co-processor
+#
+# Unity unit testing library
+#
+# end of Unity unit testing library
+#
+# USB-OTG
+#
+#
+# Hub Driver Configuration
+#
+#
+# Root Port configuration
+#
+# end of Root Port configuration
+#
+# Downstream Port configuration
+#
+# end of Downstream Port configuration
+# end of Hub Driver Configuration
+# end of USB-OTG
+#
+# Virtual file system
+#
+#
+# Host File System I/O (Semihosting)
+#
+# end of Host File System I/O (Semihosting)
+# end of Virtual file system
+#
+# Wear Levelling
+#
+# end of Wear Levelling
+#
+# Wi-Fi Provisioning Manager
+#
+# end of Wi-Fi Provisioning Manager
+#
+# DSP Library
+#
+# end of DSP Library
+#
+# Modbus configuration
+#
+# end of Modbus configuration
+#
+# ESP serial flasher
+#
+# end of ESP serial flasher
+#
+# Zigbee
+#
+#
+# Zigbee Example
+#
+# end of Zigbee Example
+# end of Zigbee
+#
+# Camera configuration
+#
+# end of Camera configuration
+#
+# Diagnostics data store
+#
+#
+# RTC Store
+#
+# end of RTC Store
+# end of Diagnostics data store
+#
+# Diagnostics
+#
+# end of Diagnostics
+#
+# ESP Insights
+#
+# end of ESP Insights
+#
+# JPEG Decoder
+#
+# end of JPEG Decoder
+#
+# CHIP Core
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Networking Options
+#
+# end of Networking Options
+#
+# System Options
+#
+# end of System Options
+#
+# Security Options
+#
+#
+# Debugging
+#
+# end of Debugging
+# end of Security Options
+# end of CHIP Core
+#
+# CHIP Device Layer
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Device Identification Options
+#
+# end of Device Identification Options
+#
+# WiFi Station Options
+#
+# end of WiFi Station Options
+#
+# WiFi AP Options
+#
+# end of WiFi AP Options
+#
+# BLE Options
+#
+# end of BLE Options
+#
+# Time Sync Options
+#
+# end of Time Sync Options
+#
+# Service Provisioning Options
+#
+# end of Service Provisioning Options
+#
+# Commissioning options
+#
+# end of Commissioning options
+#
+# Testing Options
+#
+# end of Testing Options
+#
+# Network Telemetry Options
+#
+# end of Network Telemetry Options
+#
+# Event Logging Options
+#
+# end of Event Logging Options
+#
+# Matter OTA Image
+#
+# end of Matter OTA Image
+#
+# External Platform
+#
+# end of External Platform
+#
+# Matter Manufacturing Options
+#
+# end of Matter Manufacturing Options
+#
+# Commissioning Window Options
+#
+# end of Commissioning Window Options
+#
+# Enable ESP32 as a BLE Commissioner
+#
+# end of Enable ESP32 as a BLE Commissioner
+#
+# Enable BLE Extended Announcement
+#
+# end of Enable BLE Extended Announcement
+#
+# Message Reliable Protocol Options
+#
+# end of Message Reliable Protocol Options
+#
+# Network Commissioning Driver Endpoint Id
+#
+# end of Network Commissioning Driver Endpoint Id
+#
+# Cluster Configuration Options
+#
+# end of Cluster Configuration Options
+# end of CHIP Device Layer
+#
+# ESP Matter
+#
+#
+# Select Supported Matter Clusters
+#
+# end of Select Supported Matter Clusters
+# end of ESP Matter
+#
+# ESP Matter Bridge
+#
+# end of ESP Matter Bridge
+#
+# ESP Matter Console
+#
+# end of ESP Matter Console
+#
+# ESP Matter Controller
+#
+# end of ESP Matter Controller
+#
+# ESP Matter OTA Provider
+#
+# end of ESP Matter OTA Provider
+#
+# esp-modem
+#
+# end of esp-modem
+#
+# OpenThread RCP Update
+#
+# end of OpenThread RCP Update
+#
+# ESP Secure Cert Manager
+#
+# end of ESP Secure Cert Manager
+#
+# jsmn
+#
+# end of jsmn
+#
+# libsodium
+#
+# end of libsodium
+#
+# mDNS
+#
+#
+# MDNS Memory Configuration
+#
+# end of MDNS Memory Configuration
+#
+# MDNS Predefined interfaces
+#
+# end of MDNS Predefined interfaces
+# end of mDNS
+#
+# Network Provisioning Manager
+#
+# end of Network Provisioning Manager
+#
+# ESP RainMaker Common
+#
+# end of ESP RainMaker Common
+#
+# LittleFS
+#
+# end of LittleFS
+# end of Component config
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+# Deprecated options for backward compatibility
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_80 is not set
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_160 is not set
+CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240=y
+# End of deprecated options
+# CONFIG_ESPTOOLPY_FLASHFREQ_26M is not set
+# CONFIG_SPIRAM_SPEED_20M is not set
+# CONFIG_SPIRAM_SPEED_200M is not set
+# TASMOTA__f84e19c11f381208
+#
+# Automatically generated file. DO NOT EDIT.
+# Espressif IoT Development Framework (ESP-IDF) 5.5.2 Project Configuration
+#
+#
+# Build type
+#
+# end of Build type
+#
+# Bootloader config
+#
+#
+# Bootloader manager
+#
+# end of Bootloader manager
+#
+# Application Rollback
+#
+# end of Application Rollback
+#
+# Recovery Bootloader and Rollback
+#
+# end of Recovery Bootloader and Rollback
+#
+# Log
+#
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# Serial Flash Configurations
+#
+# end of Serial Flash Configurations
+# end of Bootloader config
+#
+# Security features
+#
+# end of Security features
+#
+# Application manager
+#
+# end of Application manager
+#
+# Boot ROM Behavior
+#
+# end of Boot ROM Behavior
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+# CONFIG_ESPTOOLPY_FLASHMODE_QOUT is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DIO is not set
+# CONFIG_ESPTOOLPY_FLASHMODE_DOUT is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_120M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+# CONFIG_ESPTOOLPY_FLASHFREQ_40M is not set
+# CONFIG_ESPTOOLPY_FLASHFREQ_20M is not set
+CONFIG_ESPTOOLPY_FLASHFREQ="80m"
+# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set
+# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set
+CONFIG_ESPTOOLPY_FLASHSIZE="16MB"
+# end of Serial flasher config
+#
+# Partition Table
+#
+# end of Partition Table
+#
+# Arduino Configuration
+#
+#
+# Debug Log Configuration
+#
+# end of Debug Log Configuration
+# end of Arduino Configuration
+#
+# Arduino TinyUSB
+#
+#
+# Serial (CDC) driver
+#
+# end of Serial (CDC) driver
+#
+# Mass Storage (MSC) driver
+#
+# end of Mass Storage (MSC) driver
+#
+# Human Interface (HID) driver
+#
+# end of Human Interface (HID) driver
+#
+# MIDI driver
+#
+# end of MIDI driver
+#
+# VIDEO driver
+#
+# end of VIDEO driver
+#
+# DFU Runtime driver
+#
+# end of DFU Runtime driver
+#
+# DFU driver
+#
+# end of DFU driver
+#
+# VENDOR driver
+#
+# end of VENDOR driver
+#
+# NCM driver
+#
+# end of NCM driver
+# end of Arduino TinyUSB
+#
+# ESP-NN
+#
+# end of ESP-NN
+#
+# ESP Speech Recognition
+#
+#
+# Load Multiple Wake Words (WakeNet9s)
+#
+# end of Load Multiple Wake Words (WakeNet9s)
+#
+# Load Multiple Wake Words (WakeNet9)
+#
+# end of Load Multiple Wake Words (WakeNet9)
+#
+# Add English speech commands
+#
+# end of Add English speech commands
+# end of ESP Speech Recognition
+#
+# ESP RainMaker Config
+#
+#
+# ESP RainMaker OTA Config
+#
+# end of ESP RainMaker OTA Config
+#
+# ESP RainMaker Scheduling
+#
+# end of ESP RainMaker Scheduling
+#
+# ESP RainMaker Scenes
+#
+# end of ESP RainMaker Scenes
+#
+# ESP RainMaker Command-Response
+#
+# end of ESP RainMaker Command-Response
+# end of ESP RainMaker Config
+#
+# Compiler options
+#
+# end of Compiler options
+#
+# Component config
+#
+#
+# Application Level Tracing
+#
+# end of Application Level Tracing
+#
+# Bluetooth
+#
+#
+# NimBLE Options
+#
+#
+# General
+#
+# end of General
+#
+# Roles and Profiles
+#
+# end of Roles and Profiles
+#
+# Security (SMP)
+#
+# end of Security (SMP)
+#
+# GAP
+#
+# end of GAP
+#
+# GATT / ATT
+#
+# end of GATT / ATT
+#
+# L2CAP
+#
+# end of L2CAP
+#
+# Memory Settings
+#
+# end of Memory Settings
+#
+# BLE 5.x Features
+#
+# end of BLE 5.x Features
+#
+# Services
+#
+#
+# GAP Appearance write permissions
+#
+# end of GAP Appearance write permissions
+#
+# GAP device name write permissions
+#
+# end of GAP device name write permissions
+#
+# Peripheral Preferred Connection Parameters (PPCP) settings
+#
+# end of Peripheral Preferred Connection Parameters (PPCP) settings
+# end of Services
+#
+# Extra Features
+#
+# end of Extra Features
+#
+# NimBLE Mesh
+#
+# end of NimBLE Mesh
+#
+# Host-controller Transport
+#
+# end of Host-controller Transport
+#
+# Debugging/Testing
+#
+# end of Debugging/Testing
+#
+# Vendor / Optimization
+#
+# end of Vendor / Optimization
+#
+# Helper Utils
+#
+# end of Helper Utils
+# end of NimBLE Options
+#
+# Controller Options
+#
+#
+# MODEM SLEEP Options
+#
+# end of MODEM SLEEP Options
+#
+# BLE disconnects when Instant Passed (0x28) occurs
+#
+# end of BLE disconnects when Instant Passed (0x28) occurs
+#
+# Controller debug log Options (Experimental)
+#
+# end of Controller debug log Options (Experimental)
+# end of Controller Options
+#
+# Common Options
+#
+#
+# BLE Log
+#
+# end of BLE Log
+# end of Common Options
+# end of Bluetooth
+#
+# BLE Mesh and BLE coexistence support
+#
+# end of BLE Mesh and BLE coexistence support
+#
+# BLE Mesh STACK DEBUG LOG LEVEL
+#
+# end of BLE Mesh STACK DEBUG LOG LEVEL
+#
+# BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# end of BLE Mesh NET BUF DEBUG LOG LEVEL
+#
+# Support for BLE Mesh Foundation models
+#
+# end of Support for BLE Mesh Foundation models
+#
+# Support for BLE Mesh Client/Server models
+#
+#
+# Binary Larger Object Transfer model
+#
+# end of Binary Larger Object Transfer model
+#
+# Device Firmware Update model
+#
+# end of Device Firmware Update model
+# end of Support for BLE Mesh Client/Server models
+#
+# BLE Mesh specific test option
+#
+# end of BLE Mesh specific test option
+#
+# Console Library
+#
+# end of Console Library
+#
+# Driver Configurations
+#
+#
+# Legacy TWAI Driver Configurations
+#
+# end of Legacy TWAI Driver Configurations
+#
+# Legacy ADC Driver Configuration
+#
+#
+# Legacy ADC Calibration Configuration
+#
+# end of Legacy ADC Calibration Configuration
+# end of Legacy ADC Driver Configuration
+#
+# Legacy MCPWM Driver Configurations
+#
+# end of Legacy MCPWM Driver Configurations
+#
+# Legacy Timer Group Driver Configurations
+#
+# end of Legacy Timer Group Driver Configurations
+#
+# Legacy RMT Driver Configurations
+#
+# end of Legacy RMT Driver Configurations
+#
+# Legacy I2S Driver Configurations
+#
+# end of Legacy I2S Driver Configurations
+#
+# Legacy I2C Driver Configurations
+#
+# end of Legacy I2C Driver Configurations
+#
+# Legacy PCNT Driver Configurations
+#
+# end of Legacy PCNT Driver Configurations
+#
+# Legacy SDM Driver Configurations
+#
+# end of Legacy SDM Driver Configurations
+#
+# Legacy Temperature Sensor Driver Configurations
+#
+# end of Legacy Temperature Sensor Driver Configurations
+#
+# Legacy Touch Sensor Driver Configurations
+#
+# end of Legacy Touch Sensor Driver Configurations
+# end of Driver Configurations
+#
+# eFuse Bit Manager
+#
+# end of eFuse Bit Manager
+#
+# ESP-TLS
+#
+# end of ESP-TLS
+#
+# ADC and ADC Calibration
+#
+# end of ADC and ADC Calibration
+#
+# Wireless Coexistence
+#
+# end of Wireless Coexistence
+#
+# Common ESP-related
+#
+# end of Common ESP-related
+#
+# ESP-Driver:Camera Controller Configurations
+#
+# end of ESP-Driver:Camera Controller Configurations
+#
+# ESP-Driver:GPIO Configurations
+#
+# end of ESP-Driver:GPIO Configurations
+#
+# ESP-Driver:GPTimer Configurations
+#
+# end of ESP-Driver:GPTimer Configurations
+#
+# ESP-Driver:I2C Configurations
+#
+# end of ESP-Driver:I2C Configurations
+#
+# ESP-Driver:I2S Configurations
+#
+# end of ESP-Driver:I2S Configurations
+#
+# ESP-Driver:LEDC Configurations
+#
+# end of ESP-Driver:LEDC Configurations
+#
+# ESP-Driver:MCPWM Configurations
+#
+# end of ESP-Driver:MCPWM Configurations
+#
+# ESP-Driver:PCNT Configurations
+#
+# end of ESP-Driver:PCNT Configurations
+#
+# ESP-Driver:RMT Configurations
+#
+# end of ESP-Driver:RMT Configurations
+#
+# ESP-Driver:Sigma Delta Modulator Configurations
+#
+# end of ESP-Driver:Sigma Delta Modulator Configurations
+#
+# ESP-Driver:SPI Configurations
+#
+# end of ESP-Driver:SPI Configurations
+#
+# ESP-Driver:Touch Sensor Configurations
+#
+# end of ESP-Driver:Touch Sensor Configurations
+#
+# ESP-Driver:Temperature Sensor Configurations
+#
+# end of ESP-Driver:Temperature Sensor Configurations
+#
+# ESP-Driver:TWAI Configurations
+#
+# end of ESP-Driver:TWAI Configurations
+#
+# ESP-Driver:UART Configurations
+#
+# end of ESP-Driver:UART Configurations
+#
+# ESP-Driver:UHCI Configurations
+#
+# end of ESP-Driver:UHCI Configurations
+#
+# ESP-Driver:USB Serial/JTAG Configuration
+#
+# end of ESP-Driver:USB Serial/JTAG Configuration
+#
+# Ethernet
+#
+# end of Ethernet
+#
+# Event Loop Library
+#
+# end of Event Loop Library
+#
+# GDB Stub
+#
+# end of GDB Stub
+#
+# ESP HID
+#
+# end of ESP HID
+#
+# ESP HTTP client
+#
+# end of ESP HTTP client
+#
+# HTTP Server
+#
+# end of HTTP Server
+#
+# ESP HTTPS OTA
+#
+# end of ESP HTTPS OTA
+#
+# ESP HTTPS server
+#
+# end of ESP HTTPS server
+#
+# Hardware Settings
+#
+#
+# Chip revision
+#
+#
+# Maximum Supported ESP32-S3 Revision (Rev v0.99)
+#
+#
+# Maximum Supported ESP32-S3 eFuse Block Revision (eFuse Block Rev v1.99)
+#
+# end of Chip revision
+#
+# MAC Config
+#
+# end of MAC Config
+#
+# Sleep Config
+#
+# end of Sleep Config
+#
+# RTC Clock Config
+#
+# end of RTC Clock Config
+#
+# Peripheral Control
+#
+# end of Peripheral Control
+#
+# GDMA Configurations
+#
+# end of GDMA Configurations
+#
+# Main XTAL Config
+#
+# end of Main XTAL Config
+#
+# Power Supplier
+#
+#
+# Brownout Detector
+#
+# end of Brownout Detector
+# end of Power Supplier
+# end of Hardware Settings
+#
+# ESP-Driver:LCD Controller Configurations
+#
+# end of ESP-Driver:LCD Controller Configurations
+#
+# ESP-MM: Memory Management Configurations
+#
+# end of ESP-MM: Memory Management Configurations
+#
+# ESP NETIF Adapter
+#
+# end of ESP NETIF Adapter
+#
+# Partition API Configuration
+#
+# end of Partition API Configuration
+#
+# PHY
+#
+# end of PHY
+#
+# Power Management
+#
+# end of Power Management
+#
+# ESP PSRAM
+#
+CONFIG_SPIRAM=y
+#
+# SPI RAM config
+#
+# CONFIG_SPIRAM_MODE_QUAD is not set
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_TYPE_AUTO=y
+# CONFIG_SPIRAM_SPEED_120M is not set
+CONFIG_SPIRAM_SPEED_80M=y
+# CONFIG_SPIRAM_SPEED_40M is not set
+CONFIG_SPIRAM_SPEED=80
+# end of SPI RAM config
+# end of ESP PSRAM
+#
+# ESP Ringbuf
+#
+# end of ESP Ringbuf
+#
+# ESP-ROM
+#
+# end of ESP-ROM
+#
+# ESP Security Specific
+#
+# end of ESP Security Specific
+#
+# ESP System Settings
+#
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80 is not set
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160 is not set
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ=240
+#
+# Cache config
+#
+# end of Cache config
+#
+# Memory
+#
+# end of Memory
+#
+# Trace memory
+#
+# end of Trace memory
+#
+# Memory protection
+#
+# end of Memory protection
+# end of ESP System Settings
+#
+# IPC (Inter-Processor Call)
+#
+# end of IPC (Inter-Processor Call)
+#
+# ESP Timer (High Resolution Timer)
+#
+# end of ESP Timer (High Resolution Timer)
+#
+# Wi-Fi
+#
+#
+# WPS Configuration Options
+#
+# end of WPS Configuration Options
+# end of Wi-Fi
+#
+# Core dump
+#
+# end of Core dump
+#
+# FAT Filesystem support
+#
+#
+# File system free space calculation behavior
+#
+# end of File system free space calculation behavior
+# end of FAT Filesystem support
+#
+# FreeRTOS
+#
+#
+# Kernel
+#
+# end of Kernel
+#
+# Port
+#
+# end of Port
+#
+# Extra
+#
+# end of Extra
+# end of FreeRTOS
+#
+# Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# end of Hardware Abstraction Layer (HAL) and Low Level (LL)
+#
+# Heap memory debugging
+#
+# end of Heap memory debugging
+#
+# Log
+#
+#
+# Log Level
+#
+#
+# Level Settings
+#
+# end of Level Settings
+# end of Log Level
+#
+# Format
+#
+# end of Format
+#
+# Settings
+#
+# end of Settings
+# end of Log
+#
+# LWIP
+#
+#
+# DHCP server
+#
+# end of DHCP server
+#
+# TCP
+#
+# end of TCP
+#
+# UDP
+#
+# end of UDP
+#
+# Checksums
+#
+# end of Checksums
+#
+# ICMP
+#
+# end of ICMP
+#
+# LWIP RAW API
+#
+# end of LWIP RAW API
+#
+# SNTP
+#
+# end of SNTP
+#
+# DNS
+#
+# end of DNS
+#
+# Hooks
+#
+# end of Hooks
+# end of LWIP
+#
+# mbedTLS
+#
+#
+# mbedTLS v3.x related
+#
+#
+# DTLS-based configurations
+#
+# end of DTLS-based configurations
+# end of mbedTLS v3.x related
+#
+# Certificate Bundle
+#
+# end of Certificate Bundle
+#
+# TLS Key Exchange Methods
+#
+# end of TLS Key Exchange Methods
+#
+# Symmetric Ciphers
+#
+# end of Symmetric Ciphers
+#
+# Certificates
+#
+# end of Certificates
+# end of mbedTLS
+#
+# ESP-MQTT Configurations
+#
+# end of ESP-MQTT Configurations
+#
+# LibC
+#
+# end of LibC
+#
+# NVS
+#
+# end of NVS
+#
+# OpenThread
+#
+#
+# OpenThread Spinel
+#
+# end of OpenThread Spinel
+# end of OpenThread
+#
+# Protocomm
+#
+# end of Protocomm
+#
+# PThreads
+#
+# end of PThreads
+#
+# MMU Config
+#
+# end of MMU Config
+#
+# Main Flash configuration
+#
+#
+# SPI Flash behavior when brownout
+#
+# end of SPI Flash behavior when brownout
+#
+# Optional and Experimental Features (READ DOCS FIRST)
+#
+#
+# Features here require specific hardware (READ DOCS FIRST!)
+#
+# end of Optional and Experimental Features (READ DOCS FIRST)
+# end of Main Flash configuration
+#
+# SPI Flash driver
+#
+#
+# Auto-detect flash chips
+#
+# end of Auto-detect flash chips
+# end of SPI Flash driver
+#
+# SPIFFS Configuration
+#
+#
+# SPIFFS Cache Configuration
+#
+# end of SPIFFS Cache Configuration
+#
+# Debug Configuration
+#
+# end of Debug Configuration
+# end of SPIFFS Configuration
+#
+# TCP Transport
+#
+#
+# Websocket
+#
+# end of Websocket
+# end of TCP Transport
+#
+# Ultra Low Power (ULP) Co-processor
+#
+#
+# ULP Debugging Options
+#
+# end of ULP Debugging Options
+# end of Ultra Low Power (ULP) Co-processor
+#
+# Unity unit testing library
+#
+# end of Unity unit testing library
+#
+# USB-OTG
+#
+#
+# Hub Driver Configuration
+#
+#
+# Root Port configuration
+#
+# end of Root Port configuration
+#
+# Downstream Port configuration
+#
+# end of Downstream Port configuration
+# end of Hub Driver Configuration
+# end of USB-OTG
+#
+# Virtual file system
+#
+#
+# Host File System I/O (Semihosting)
+#
+# end of Host File System I/O (Semihosting)
+# end of Virtual file system
+#
+# Wear Levelling
+#
+# end of Wear Levelling
+#
+# Wi-Fi Provisioning Manager
+#
+# end of Wi-Fi Provisioning Manager
+#
+# DSP Library
+#
+# end of DSP Library
+#
+# Modbus configuration
+#
+# end of Modbus configuration
+#
+# ESP serial flasher
+#
+# end of ESP serial flasher
+#
+# Zigbee
+#
+#
+# Zigbee Example
+#
+# end of Zigbee Example
+# end of Zigbee
+#
+# Camera configuration
+#
+# end of Camera configuration
+#
+# Diagnostics data store
+#
+#
+# RTC Store
+#
+# end of RTC Store
+# end of Diagnostics data store
+#
+# Diagnostics
+#
+# end of Diagnostics
+#
+# ESP Insights
+#
+# end of ESP Insights
+#
+# JPEG Decoder
+#
+# end of JPEG Decoder
+#
+# CHIP Core
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Networking Options
+#
+# end of Networking Options
+#
+# System Options
+#
+# end of System Options
+#
+# Security Options
+#
+#
+# Debugging
+#
+# end of Debugging
+# end of Security Options
+# end of CHIP Core
+#
+# CHIP Device Layer
+#
+#
+# General Options
+#
+# end of General Options
+#
+# Device Identification Options
+#
+# end of Device Identification Options
+#
+# WiFi Station Options
+#
+# end of WiFi Station Options
+#
+# WiFi AP Options
+#
+# end of WiFi AP Options
+#
+# BLE Options
+#
+# end of BLE Options
+#
+# Time Sync Options
+#
+# end of Time Sync Options
+#
+# Service Provisioning Options
+#
+# end of Service Provisioning Options
+#
+# Commissioning options
+#
+# end of Commissioning options
+#
+# Testing Options
+#
+# end of Testing Options
+#
+# Network Telemetry Options
+#
+# end of Network Telemetry Options
+#
+# Event Logging Options
+#
+# end of Event Logging Options
+#
+# Matter OTA Image
+#
+# end of Matter OTA Image
+#
+# External Platform
+#
+# end of External Platform
+#
+# Matter Manufacturing Options
+#
+# end of Matter Manufacturing Options
+#
+# Commissioning Window Options
+#
+# end of Commissioning Window Options
+#
+# Enable ESP32 as a BLE Commissioner
+#
+# end of Enable ESP32 as a BLE Commissioner
+#
+# Enable BLE Extended Announcement
+#
+# end of Enable BLE Extended Announcement
+#
+# Message Reliable Protocol Options
+#
+# end of Message Reliable Protocol Options
+#
+# Network Commissioning Driver Endpoint Id
+#
+# end of Network Commissioning Driver Endpoint Id
+#
+# Cluster Configuration Options
+#
+# end of Cluster Configuration Options
+# end of CHIP Device Layer
+#
+# ESP Matter
+#
+#
+# Select Supported Matter Clusters
+#
+# end of Select Supported Matter Clusters
+# end of ESP Matter
+#
+# ESP Matter Bridge
+#
+# end of ESP Matter Bridge
+#
+# ESP Matter Console
+#
+# end of ESP Matter Console
+#
+# ESP Matter Controller
+#
+# end of ESP Matter Controller
+#
+# ESP Matter OTA Provider
+#
+# end of ESP Matter OTA Provider
+#
+# esp-modem
+#
+# end of esp-modem
+#
+# OpenThread RCP Update
+#
+# end of OpenThread RCP Update
+#
+# ESP Secure Cert Manager
+#
+# end of ESP Secure Cert Manager
+#
+# jsmn
+#
+# end of jsmn
+#
+# libsodium
+#
+# end of libsodium
+#
+# mDNS
+#
+#
+# MDNS Memory Configuration
+#
+# end of MDNS Memory Configuration
+#
+# MDNS Predefined interfaces
+#
+# end of MDNS Predefined interfaces
+# end of mDNS
+#
+# Network Provisioning Manager
+#
+# end of Network Provisioning Manager
+#
+# ESP RainMaker Common
+#
+# end of ESP RainMaker Common
+#
+# LittleFS
+#
+# end of LittleFS
+# end of Component config
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+# Deprecated options for backward compatibility
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_80 is not set
+# CONFIG_ESP32S3_DEFAULT_CPU_FREQ_160 is not set
+CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240=y
+# End of deprecated options
+# CONFIG_ESPTOOLPY_FLASHFREQ_26M is not set
+# CONFIG_SPIRAM_SPEED_20M is not set
+# CONFIG_SPIRAM_SPEED_200M is not set
 # ESP32-S3 Smartwatch - Custom ESP-IDF settings for HybridCompile
 # Bluetooth
 # FreeRTOS
@@ -12130,6 +18724,12 @@ CONFIG_FREERTOS_IDLE_TIME_BEFORE_SLEEP=3
 # WiFi buffers (match precompiled defaults)
 CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER=y
 CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER_NUM=32
+file://sdkconfig.defaults
+file://sdkconfig.defaults
+file://sdkconfig.defaults
+file://sdkconfig.defaults
+file://sdkconfig.defaults
+file://sdkconfig.defaults
 file://sdkconfig.defaults
 file://sdkconfig.defaults
 file://sdkconfig.defaults
